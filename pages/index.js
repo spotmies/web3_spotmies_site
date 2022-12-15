@@ -3,6 +3,7 @@ import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World }
 import ContactUs from '../sections/ContactUs';
 import Team from '../sections/Team';
 import Testimonials from '../sections/Testimonials';
+import Work from '../sections/Work/Work';
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">
@@ -32,7 +33,7 @@ const Home = () => (
     <div className="relative">
      <Team />
       <div className="gradient-04 z-0" />
-     
+     <Work />
     </div>
     <Footer />
   </div>

@@ -2,6 +2,7 @@ import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
 import ContactUs from '../sections/ContactUs';
 import Team from '../sections/Team';
+import Technologies from '../sections/Technologies';
 import Testimonials from '../sections/Testimonials';
 import Work from '../sections/Work/Work';
 
@@ -34,6 +35,11 @@ const Home = () => (
      <Team />
       <div className="gradient-04 z-0" />
      <Work />
+    </div>
+    <div className="relative">
+     <Technologies />
+      <div className="gradient-04 z-0" />
+    
     </div>
     <Footer />
   </div>

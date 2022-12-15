@@ -5,7 +5,7 @@
   "_rev": "PtDtQjdJbHP45gYivUCQjA",
   "_type": "skills",
   "_updatedAt": "2022-02-03T08:49:15Z",
-  "bgColor": "#fcece7",
+  "bgColor": "#242e3a",
   "icon": {
     "_type": "image",
     "asset": {
@@ -13,6 +13,8 @@
       "_type": "reference"
     }
   },
+  "image":"https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+
   "name": "Figma"
 },
 {
@@ -21,7 +23,7 @@
   "_rev": "PtDtQjdJbHP45gYivUCQjA",
   "_type": "skills",
   "_updatedAt": "2022-02-03T08:49:15Z",
-  "bgColor": "#fcece7",
+  "bgColor": "#242e3a",
   "icon": {
     "_type": "image",
     "asset": {
@@ -45,6 +47,8 @@
         "_type": "reference"
       }
     },
+    "image":"https://seeklogo.com/images/F/flutter-logo-5086DD11C5-seeklogo.com.png",
+
     "name": "Flutter"
   },
   {
@@ -53,7 +57,7 @@
     "_rev": "PtDtQjdJbHP45gYivUCQjA",
     "_type": "skills",
     "_updatedAt": "2022-02-03T08:49:15Z",
-    "bgColor": "#fcece7",
+    "bgColor": "#242e3a",
     "icon": {
       "_type": "image",
       "asset": {
@@ -79,6 +83,8 @@
         "_type": "reference"
       }
     },
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+
     "name": "Python"
   },
  
@@ -89,7 +95,7 @@
     "_rev": "FOjHns4JAVjhRrmlgYvbRl",
     "_type": "skills",
     "_updatedAt": "2022-02-03T08:51:08Z",
-    "bgColor": "#e7fdf3",
+    "bgColor": "#242e3a",
     "icon": {
       "_type": "image",
       "asset": {
@@ -97,6 +103,8 @@
         "_type": "reference"
       }
     },
+    "image":"https://cdn-icons-png.flaticon.com/512/5968/5968322.png",
+
     "name": "Node JS"
   },
   {
@@ -105,7 +113,7 @@
     "_rev": "70QCIWOUZWUZKPvyOkbwdM",
     "_type": "skills",
     "_updatedAt": "2022-02-03T08:51:35Z",
-    "bgColor": "#ecfcff",
+    "bgColor": "#242e3a",
     "icon": {
       "_type": "image",
       "asset": {
@@ -113,6 +121,8 @@
         "_type": "reference"
       }
     },
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+
     "name": "React"
   },
 
@@ -122,7 +132,7 @@
     "_rev": "PtDtQjdJbHP45gYivUCQjA",
     "_type": "skills",
     "_updatedAt": "2022-02-03T08:49:15Z",
-    "bgColor": "#fcece7",
+    "bgColor": "#242e3a",
     "icon": {
       "_type": "image",
       "asset": {
@@ -130,7 +140,7 @@
         "_type": "reference"
       }
     },
-    "image":"https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png",
+    "image":"https://cdn.cdnlogo.com/logos/n/80/next-js.svg",
     "name": "Next Js"
   }
  

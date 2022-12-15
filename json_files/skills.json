@@ -1,0 +1,140 @@
+[  
+  {
+  "_createdAt": "2022-02-02T06:32:07Z",
+  "_id": "b90fdb1c-6dd9-430c-84c6-a171639226e3",
+  "_rev": "PtDtQjdJbHP45gYivUCQjA",
+  "_type": "skills",
+  "_updatedAt": "2022-02-03T08:49:15Z",
+  "bgColor": "#fcece7",
+  "icon": {
+    "_type": "image",
+    "asset": {
+      "_ref": "image-150681c99b6a34ff849fdf59341c0e7af7b6dcd2-64x64-png",
+      "_type": "reference"
+    }
+  },
+  "name": "Figma"
+},
+{
+  "_createdAt": "2022-02-02T06:32:07Z",
+  "_id": "b90fdb1c-6dd9-430c-84c6-a171639226e3",
+  "_rev": "PtDtQjdJbHP45gYivUCQjA",
+  "_type": "skills",
+  "_updatedAt": "2022-02-03T08:49:15Z",
+  "bgColor": "#fcece7",
+  "icon": {
+    "_type": "image",
+    "asset": {
+      "_ref": "image-150681c99b6a34ff849fdf59341c0e7af7b6dcd2-64x64-png",
+      "_type": "reference"
+    }
+  },
+  "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/2101px-Adobe_XD_CC_icon.svg.png",
+  "name": "Adobe XD"
+},
+  {
+    "_createdAt": "2022-02-02T06:30:27Z",
+    "_id": "0ae8c884-1ec3-429f-b1ae-431ac7073876",
+    "_rev": "EZ5kWSCITeRq5ErW0NO1nA",
+    "_type": "skills",
+    "_updatedAt": "2022-02-02T06:30:27Z",
+    "icon": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-ae52812e4936e82ca32191479a534ccc2d0e26a4-64x64-png",
+        "_type": "reference"
+      }
+    },
+    "name": "Flutter"
+  },
+  {
+    "_createdAt": "2022-02-02T06:32:07Z",
+    "_id": "b90fdb1c-6dd9-430c-84c6-a171639226e3",
+    "_rev": "PtDtQjdJbHP45gYivUCQjA",
+    "_type": "skills",
+    "_updatedAt": "2022-02-03T08:49:15Z",
+    "bgColor": "#fcece7",
+    "icon": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-150681c99b6a34ff849fdf59341c0e7af7b6dcd2-64x64-png",
+        "_type": "reference"
+      }
+    },
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/1200px-Solidity_logo.svg.png",
+    "name": "Solidity"
+  },
+ 
+ 
+  {
+    "_createdAt": "2022-02-02T06:33:39Z",
+    "_id": "6af0de2b-156d-4058-a231-f2701e28323a",
+    "_rev": "MPbpsQdoxvSweYYnp8BYvk",
+    "_type": "skills",
+    "_updatedAt": "2022-02-02T06:33:39Z",
+    "icon": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-aa1dc780814cb5c67190adc0b032bf0671309d9c-64x64-png",
+        "_type": "reference"
+      }
+    },
+    "name": "Python"
+  },
+ 
+
+  {
+    "_createdAt": "2022-02-02T06:31:15Z",
+    "_id": "a3281d41-d462-4f71-9cf6-6e5b34352790",
+    "_rev": "FOjHns4JAVjhRrmlgYvbRl",
+    "_type": "skills",
+    "_updatedAt": "2022-02-03T08:51:08Z",
+    "bgColor": "#e7fdf3",
+    "icon": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-61890c81172dd9f7b2cdbd95431fbddc91a3f67c-64x64-png",
+        "_type": "reference"
+      }
+    },
+    "name": "Node JS"
+  },
+  {
+    "_createdAt": "2022-02-02T04:28:48Z",
+    "_id": "b1d043a2-b36c-42e8-9ebe-961ba5adf4a9",
+    "_rev": "70QCIWOUZWUZKPvyOkbwdM",
+    "_type": "skills",
+    "_updatedAt": "2022-02-03T08:51:35Z",
+    "bgColor": "#ecfcff",
+    "icon": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64-png",
+        "_type": "reference"
+      }
+    },
+    "name": "React"
+  },
+
+  {
+    "_createdAt": "2022-02-02T06:32:07Z",
+    "_id": "b90fdb1c-6dd9-430c-84c6-a171639226e3",
+    "_rev": "PtDtQjdJbHP45gYivUCQjA",
+    "_type": "skills",
+    "_updatedAt": "2022-02-03T08:49:15Z",
+    "bgColor": "#fcece7",
+    "icon": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-150681c99b6a34ff849fdf59341c0e7af7b6dcd2-64x64-png",
+        "_type": "reference"
+      }
+    },
+    "image":"https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png",
+    "name": "Next Js"
+  }
+ 
+ 
+
+
+]

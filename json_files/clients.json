@@ -1,0 +1,16 @@
+[
+   {
+    "title":"Sweken",
+    "image":"https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Flogo-final.png?alt=media&token=1cf91011-f467-4001-8da5-3c5ac99c2a08",
+    "link":"https://www.sweken.com"
+   },
+   {
+    "title": "A Square Go karting",
+    "image": "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fgo-kart.png?alt=media&token=22e3597e-d2d5-4827-91c6-419185ed7e8a",
+    "link":"https://www.asquaregokarting.com"
+   },{
+      "title": "Indie skull syndicate",
+      "image":"https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fiss_logo.png?alt=media&token=21d11f80-f7be-4582-ba84-351bcae14a9d",
+      "link":"https://www.indieskullsyndicate.xyz"
+   }
+]

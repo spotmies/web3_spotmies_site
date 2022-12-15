@@ -1,0 +1,67 @@
+[
+  {
+    "_createdAt": "2022-02-02T04:15:03Z",
+    "_id": "1b4fc134-aabb-41ab-9373-b2143066bc1a",
+    "_rev": "PtDtQjdJbHP45gYivUA5Yy",
+    "_type": "experiences",
+    "_updatedAt": "2022-02-03T08:46:29Z",
+    "works": [
+      {
+        "_key": "37327a776cc3",
+        "_type": "workExperience",
+        "company": "Amazon Inc.",
+        "desc": "I worked on the design of the new Amazon app. I was responsible for the design of the new app, and the development of the new app.",
+        "name": "Senior Product Designer"
+      }
+    ],
+    "year": "2022"
+  },
+  {
+    "_createdAt": "2022-02-02T04:26:44Z",
+    "_id": "98e6d2ac-305d-4266-b388-f13b4234505d",
+    "_rev": "dyHhpWZoVMCBYrXBC8uTEX",
+    "_type": "experiences",
+    "_updatedAt": "2022-02-03T08:45:53Z",
+    "works": [
+      {
+        "_key": "3e3da2acfe3f",
+        "_type": "workExperience",
+        "company": "ENVATO",
+        "desc": "I worked on the design of the new ENAVATO app. I was responsible for the design of the new app, and the development of the new app.",
+        "name": "Senior WP Frontend Developer"
+      },
+      {
+        "_key": "2bd3d806c6ea",
+        "_type": "workExperience",
+        "company": "Zara",
+        "desc": "I worked on the design of the new Zara app. I was responsible for the design of the new app, and the development of the new app.",
+        "name": "IOS Developer"
+      },
+      {
+        "_key": "457b2b65d10c",
+        "_type": "workExperience",
+        "company": "Apple",
+        "desc": "I worked on the design of the new Apple app. I was responsible for the design of the new app, and the development of the new app.",
+        "name": "Internship Frontend Developer"
+      }
+    ],
+    "year": "2020"
+  },
+  {
+    "_createdAt": "2022-02-02T04:21:47Z",
+    "_id": "afbe267c-3fb0-45e0-9933-195d167ae1fc",
+    "_rev": "dyHhpWZoVMCBYrXBC8v96U",
+    "_type": "experiences",
+    "_updatedAt": "2022-02-03T08:46:12Z",
+    "works": [
+      {
+        "_key": "8f45c17cb24a",
+        "_type": "workExperience",
+        "company": "Google",
+        "desc": "I worked on the design of the new Google app. I was responsible for the design of the new app, and the development of the new app.",
+        "name": "UI/UX Web Designer"
+      }
+    ],
+    "year": "2021"
+  }
+]

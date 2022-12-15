@@ -1,0 +1,92 @@
+[
+  {
+    "_createdAt": "2022-02-02T04:06:04Z",
+    "_id": "0131530a-d47b-402b-8c1d-20190f095543",
+    "_rev": "MPbpsQdoxvSweYYnp7UpC4",
+    "_type": "brands",
+    "_updatedAt": "2022-02-02T04:06:04Z",
+    "imgUrl": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-5dd83018ff736517e2d106bc0aa3eee8b635661d-885x524-png",
+        "_type": "reference"
+      }
+    },
+    "name": "amazon"
+  },
+  {
+    "_createdAt": "2022-02-02T04:06:36Z",
+    "_id": "0b47cd15-1619-4870-95a1-e61c0271894b",
+    "_rev": "EZ5kWSCITeRq5ErW0MDuT5",
+    "_type": "brands",
+    "_updatedAt": "2022-02-02T04:06:36Z",
+    "imgUrl": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-30815e3ee6bf69c634bff615feae96d3e106cbe3-1000x617-png",
+        "_type": "reference"
+      }
+    },
+    "name": "new balance"
+  },
+  {
+    "_createdAt": "2022-02-02T03:59:11Z",
+    "_id": "142d73bc-8384-4f97-86fc-5a4ea988b740",
+    "_rev": "aqM1z4uXkIQ2WQ9uDc2VAo",
+    "_type": "brands",
+    "_updatedAt": "2022-02-02T03:59:11Z",
+    "imgUrl": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-5ec8ed21b7bd16396c758341481a43d4b4cf72de-1200x630-png",
+        "_type": "reference"
+      }
+    },
+    "name": "skype"
+  },
+  {
+    "_createdAt": "2022-02-02T03:59:24Z",
+    "_id": "25e46f22-6816-4621-95bc-5d864403ccc4",
+    "_rev": "aqM1z4uXkIQ2WQ9uDc2ayH",
+    "_type": "brands",
+    "_updatedAt": "2022-02-02T03:59:24Z",
+    "imgUrl": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-ecb64bf2b847260266aebd219a0d15de92e2e737-2500x940-png",
+        "_type": "reference"
+      }
+    },
+    "name": "spotify"
+  },
+  {
+    "_createdAt": "2022-02-01T08:00:09Z",
+    "_id": "519e7036-4e0a-4707-aef9-2f42ac5c29ca",
+    "_rev": "EZ5kWSCITeRq5ErW0CG5VO",
+    "_type": "brands",
+    "_updatedAt": "2022-02-01T13:47:39Z",
+    "imgUrl": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-cb8f46f3b94644b42c4925a113740b4042e8f129-2272x1704-png",
+        "_type": "reference"
+      }
+    },
+    "name": "adidas"
+  },
+  {
+    "_createdAt": "2022-02-01T08:01:54Z",
+    "_id": "7a446f7d-ea3e-4b83-8240-41a722145005",
+    "_rev": "EZ5kWSCITeRq5ErW0CGDtN",
+    "_type": "brands",
+    "_updatedAt": "2022-02-01T13:47:52Z",
+    "imgUrl": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-8826659386011648a27f47455fbc817c6984601e-1519x297-png",
+        "_type": "reference"
+      }
+    },
+    "name": "asus"
+  }
+]

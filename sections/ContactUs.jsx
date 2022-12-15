@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import {
   AiFillInstagram,
   AiFillLinkedin,
-  AiFillMail,
   AiFillTwitterSquare,
 } from "react-icons/ai";
 import { MdOutlineAlternateEmail } from "react-icons/md";
@@ -47,7 +46,7 @@ export default function ContactUs() {
         <div className="mt-[50px] flex flex-col-reverse md:flex-row justify-between items-start">
           {getInTouch}
 
-          <div className="w-[100%] md:w-[600px] h-fit md:h-[550px] mt-[10px] rounded-[10px] md:rounded-[20px] gradient-05 border-[1px] border-[#6A6A6A] border ">
+          <div className="w-[100%] md:w-[700px] h-fit md:h-[550px] mt-[10px] rounded-[10px] md:rounded-[20px] gradient-05 border-[1px] border-[#6A6A6A] border ">
             <form>
               <div className="flex flex-col md:flex-row gap-[15px] md:gap-[45px] mt-[30px] p-[20px] w-full justify-around">
                 <div className="flex flex-col items-start w-full">

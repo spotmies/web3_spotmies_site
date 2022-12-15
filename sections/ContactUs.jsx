@@ -40,7 +40,7 @@ export default function ContactUs() {
       >
         <TypingText title="| Contact Us" textStyles="text-center" />
         <TitleText
-          title={<>Our call are waiting for you</>}
+          title={<>Take A Coffee & Chat With Us</>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex flex-col-reverse md:flex-row justify-between items-start">

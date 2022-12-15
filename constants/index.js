@@ -2,28 +2,28 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'UI/UX',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'WEB 3.0',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: 'ANDROID & IOS',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    title: 'WEB & DESKTOP APPS',
   },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
-  },
+  // {
+  //   id: 'world-5',
+  //   imgUrl: '/planet-05.png',
+  //   title: 'Hawkins Labs',
+  // },
 ];
 
 export const startingFeatures = [

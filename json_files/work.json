@@ -15,7 +15,7 @@
       }
     },
     "image": "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fgo%20karting.png?alt=media&token=16c0f662-7001-44b9-9ea7-8c2e56b534bd",
-    "image2":"https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fgo%20karting%20hower-min.png?alt=media&token=aa6b7b3b-73f2-41a3-9a35-1edba0b8378f",
+    "image2": "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fgo%20karting%20hower-min.png?alt=media&token=aa6b7b3b-73f2-41a3-9a35-1edba0b8378f",
     "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
     "tags": ["Web 2"],
     "title": "A Square Go Karting",
@@ -41,6 +41,7 @@
     "projectLink": "https://www.cypherb.com",
     "tags": ["Web 3"],
     "title": "Cypher-B",
+    "glimpse": "Verification system",
     "completed": true
   },
   {
@@ -61,8 +62,9 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fiss-min.png?alt=media&token=280036a0-15b0-4758-a528-6076efcaa9cc",
     "image2": "",
     "projectLink": "https://indieskullsyndicate.xyz",
-    "tags": ["Web 3","NFT"],
+    "tags": ["Web 3", "NFT"],
     "title": "Indie skull syndicate",
+    "glimpse": "NFT based project",
     "completed": true
   },
   {
@@ -171,10 +173,7 @@
     "tags": ["Web 3"],
     "title": "Project HEX",
     "completed": true
-  }
-  ,
-
-
+  },
   {
     "_createdAt": "2022-02-01T04:51:08Z",
     "_id": "3208a4d6-0be2-44d5-a858-1cfc0f20f02b",
@@ -241,7 +240,4 @@
     "title": "Mr bikes",
     "completed": true
   }
- 
- 
-
 ]

@@ -1,10 +1,19 @@
-import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
-import ContactUs from '../sections/ContactUs';
-import Team from '../sections/Team';
-import Technologies from '../sections/Technologies';
-import Testimonials from '../sections/Testimonials';
-import Work from '../sections/Work/Work';
+import { Footer, Navbar } from "../components";
+import {
+  About,
+  Explore,
+  Feedback,
+  GetStarted,
+  Hero,
+  Insights,
+  WhatsNew,
+  World,
+} from "../sections";
+import ContactUs from "../sections/ContactUs";
+import Team from "../sections/Team";
+import Technologies from "../sections/Technologies";
+import Testimonials from "../sections/Testimonials";
+import Work from "../sections/Work/Work";
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">
@@ -20,11 +29,13 @@ const Home = () => (
       <div className="gradient-04 z-0" />
       <WhatsNew />
     </div>
-    <World />
+
     <div className="relative">
-      <Insights />
-      <div className="gradient-04 z-0" />
+      {/* <Insights /> */}
       <Feedback />
+      {/* <Feedback /> */}
+      <div className="gradient-04 z-0" />
+      <World />
     </div>
     <div className="relative">
       <ContactUs />
@@ -32,14 +43,13 @@ const Home = () => (
       <Testimonials />
     </div>
     <div className="relative">
-     <Team />
+      <Team />
       <div className="gradient-04 z-0" />
-     <Work />
+      <Work />
     </div>
     <div className="relative">
-     <Technologies />
+      <Technologies />
       <div className="gradient-04 z-0" />
-    
     </div>
     <Footer />
   </div>

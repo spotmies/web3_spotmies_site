@@ -45,7 +45,7 @@ export default function Team() {
         </div>
       </div>
       <div
-        className="h-[62%] w-[50%] rounded-[10px] absolute bottom-0 left-0 gradient-05 shadow-md drop-shadow-sm "
+        className="h-[62%] w-[50%] rounded-[10px] absolute bottom-0 left-0 shadow-md drop-shadow-sm gradient-05 "
         onMouseOver={() => {
           document.getElementById("sekhar-linkedin").style.display = "block";
         }}
@@ -53,6 +53,7 @@ export default function Team() {
           document.getElementById("sekhar-linkedin").style.display = "none";
         }}
       >
+        
         <img
           src={teamJson.sekhar}
           alt="sekhar"

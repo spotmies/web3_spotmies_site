@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import workJson from "../../json_files/work.json";
 import styles from "../../styles";
 import { TitleText, TypingText } from "../../components";
-import { staggerContainer } from "../../utils/motion";
+import { staggerContainer, fadeIn } from "../../utils/motion";
 
 const Work = () => {
   const [works, setWorks] = useState([]);
@@ -61,7 +61,8 @@ const Work = () => {
         {filterSection({ arrayy: ["All", "Web 3", "Web 2"] })}
 
         <motion.div
-          animate={animateCard}
+          // animate={animateCard}
+          variants={fadeIn("up", "tween", 0.2, 1)}
           transition={{ duration: 0.5, delayChildren: 0.5 }}
           className="app__work-portfolio"
         >

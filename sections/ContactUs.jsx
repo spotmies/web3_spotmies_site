@@ -10,11 +10,15 @@ import {
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
 import styles from "../styles";
-import { staggerContainer } from "../utils/motion";
+import { staggerContainer, fadeIn } from "../utils/motion";
 import { TitleText, TypingText } from "../components";
 export default function ContactUs() {
   const getInTouch = (
-    <div className="flex flex-col pt-[5%]">
+    <motion.div
+      variants={fadeIn("right", "tween", 0.2, 1)}
+      className="flex flex-col pt-[5%]"
+    >
+      {/* <div className="flex flex-col pt-[5%]"> */}
       <p className="text-5xl font-bold text-white">Get in touch</p>
       <p className="text-md text-slate-400 mt-[30px]">Connect with us today</p>
       <div className="flex flex-row items-center mt-[20px]">
@@ -27,7 +31,8 @@ export default function ContactUs() {
         <AiFillInstagram size="2.4rem" className="text-slate-400" />
         <AiFillLinkedin size="2.4rem" className="text-slate-400" />
       </div>
-    </div>
+      {/* </div> */}
+    </motion.div>
   );
   return (
     <section className={`${styles.paddings} relative z-10`}>
@@ -43,10 +48,20 @@ export default function ContactUs() {
           title={<>Take A Coffee & Chat With Us</>}
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex flex-col-reverse md:flex-row justify-between items-start">
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
+          className={`${styles.innerWidth} mt-[50px] flex flex-col-reverse md:flex-row justify-between items-start`}
+        >
+          {/* <div className="mt-[50px] flex flex-col-reverse md:flex-row justify-between items-start"> */}
           {getInTouch}
-
-          <div className="w-[100%] md:w-[700px] h-fit md:h-[550px] mt-[10px] rounded-[10px] md:rounded-[20px] gradient-05 border-[1px] border-[#6A6A6A] border ">
+          <motion.div
+            variants={fadeIn("left", "tween", 0.2, 1)}
+            className="w-[100%] md:w-[700px] h-fit md:h-[550px] mt-[10px] rounded-[10px] md:rounded-[20px] gradient-05 border-[1px] border-[#6A6A6A] border "
+          >
+            {/* <div className="w-[100%] md:w-[700px] h-fit md:h-[550px] mt-[10px] rounded-[10px] md:rounded-[20px] gradient-05 border-[1px] border-[#6A6A6A] border "> */}
             <form>
               <div className="flex flex-col md:flex-row gap-[15px] md:gap-[45px] mt-[30px] p-[20px] w-full justify-around">
                 <div className="flex flex-col items-start w-full">
@@ -116,8 +131,10 @@ export default function ContactUs() {
                 </button>
               </div>
             </form>
-          </div>
-        </div>
+            {/* </div> */}
+          </motion.div>
+          {/* </div> */}
+        </motion.div>
       </motion.div>
     </section>
   );

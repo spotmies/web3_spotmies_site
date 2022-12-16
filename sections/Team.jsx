@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { BsLinkedin } from "react-icons/bs";
 
 import styles from "../styles";
-import { staggerContainer } from "../utils/motion";
+import { staggerContainer, fadeIn } from "../utils/motion";
 import { NewFeatures, TitleText, TypingText } from "../components";
 import teamJson from "../json_files/team.json";
 import { newFeatures } from "../constants";
@@ -23,7 +23,11 @@ export default function Team() {
     );
   };
   const photoCard = (
-    <div className="w-[90%] md:w-[40%] md:h-[80%] relative h-[300px] mt-[15px] md:m-0 ">
+    <motion.div
+      variants={fadeIn("left", "tween", 0.2, 1)}
+      className="w-[90%] md:w-[40%] md:h-[80%] relative h-[300px] mt-[15px] md:m-0  "
+    >
+      {/* <div className="w-[90%] md:w-[40%] md:h-[80%] relative h-[300px] mt-[15px] md:m-0 "> */}
       <div
         className="h-[35%] w-[50%] rounded-[10px] absolute top-0 left-0 gradient-05 shadow-md drop-shadow-sm hover:drop-shadow-md"
         onMouseOver={() => {
@@ -53,7 +57,6 @@ export default function Team() {
           document.getElementById("sekhar-linkedin").style.display = "none";
         }}
       >
-        
         <img
           src={teamJson.sekhar}
           alt="sekhar"
@@ -103,7 +106,8 @@ export default function Team() {
           )}
         </div>
       </div>
-    </div>
+      {/* </div> */}
+    </motion.div>
   );
   return (
     <section className={`${styles.paddings} relative z-10`}>
@@ -119,26 +123,41 @@ export default function Team() {
           title={<>We are a team of Experts.</>}
           textStyles="text-center"
         />
-
-        <div className="mt-[50px] flex flex-col md:flex-row justify-between items-start md:items-start w-[100%] h-fit md:h-[700px]">
-          <div className= "w-[100%] md:w-[50%] flex flex-col items-start mt-[3%]">
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
+          className={`${styles.innerWidth} mt-[50px] flex flex-col md:flex-row justify-between items-start md:items-start w-[100%] h-fit md:h-[700px]`}
+        >
+          {/* <div className="mt-[50px] flex flex-col md:flex-row justify-between items-start md:items-start w-[100%] h-fit md:h-[700px]"> */}
+          <motion.div
+            variants={fadeIn("right", "tween", 0.2, 1)}
+            className="w-[100%] md:w-[50%] flex flex-col items-start mt-[3%]"
+          >
+            {/* <div className= "w-[100%] md:w-[50%] flex flex-col items-start mt-[3%]"> */}
             <p className="text-4xl font-bold text-white">
               We believe quality matters.
             </p>
             <p className="w-full w-[90%] md:w-[70%] text-justify text-white opacity-80 mt-4">
               {teamJson.description}
             </p>
-            <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
+            <motion.div
+              variants={fadeIn("up", "easeIn", 1, 1)}
+              className="mt-[48px] flex flex-wrap justify-between gap-[24px]"
+            >
+              {/* <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]"> */}
               {newFeatures.map((feature) => (
                 <NewFeatures key={feature.title} {...feature} />
               ))}
-            </div>
-          </div>
-         
+              {/* </div> */}
+            </motion.div>
+            {/* </div> */}
+          </motion.div>
+
           {photoCard}
-         
-          
-        </div>
+          {/* </div> */}
+        </motion.div>
       </motion.div>
     </section>
   );

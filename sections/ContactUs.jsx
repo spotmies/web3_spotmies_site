@@ -39,7 +39,7 @@ export default function ContactUs() {
 
       <p className="text-white font-bold text-md mt-[30px]">Follow us</p>
       <div className="flex gap-6 mt-[15px]">
-        {socials.map((social) => (
+        {socials.map((social) => social.name != "github" && (
           <img
             onClick={() => window.open(social.link, "_blank")}
             key={social.name}

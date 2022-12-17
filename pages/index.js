@@ -67,7 +67,6 @@ const Home = () => (
     <div className="relative">
       <GetStarted />
       <div className="gradient-04 z-0" />
-      {/* <WhatsNew /> */}
     </div>
 
     <div className="relative">
@@ -78,10 +77,9 @@ const Home = () => (
     </div>
     <div className="relative">
       <World />
-      {/* <ContactUs /> */}
+
       <div className="gradient-04 z-0" />
       <Technologies />
-      {/* <Testimonials /> */}
     </div>
     <div className="relative">
       <Testimonials />
@@ -89,11 +87,8 @@ const Home = () => (
       <div className="gradient-04 z-0" />
 
       <WhyYouChooseUs />
-      {/* <Work /> */}
     </div>
     <div className="relative">
-      {/* <Technologies /> */}
-
       <Team />
       <div className="gradient-04 z-0" />
       <ContactUs />

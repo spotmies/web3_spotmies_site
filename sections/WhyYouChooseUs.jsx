@@ -31,7 +31,7 @@ const WhyYouChooseUs = () => (
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| How We Works" />
-        <TitleText title={<>Why You Choose Us?</>} />
+        <TitleText title={<>Why Choose Us?</>} />
         <div className="mt-[31px] flex flex-col max-w-[450px] gap-[24px]">
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
             {whyYouChooseUs.map((feature) => (

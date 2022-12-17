@@ -99,6 +99,12 @@ export const socials = [
     url: '/instagram.svg',
     link: "https://www.instagram.com/spotmies"
   },
+  {
+    name: "github",
+    url: "https://www.pngkey.com/png/full/178-1787366_coming-soon-github-white-icon-png.png",
+    link: "https://github.com/spotmies"
+
+  }
   // {
   //   name: 'facebook',
   //   url: '/facebook.svg',

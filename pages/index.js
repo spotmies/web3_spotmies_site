@@ -13,6 +13,7 @@ import ContactUs from "../sections/ContactUs";
 import Team from "../sections/Team";
 import Technologies from "../sections/Technologies";
 import Testimonials from "../sections/Testimonials";
+import WhatWeHave from "../sections/WhatWeHave";
 import WhyYouChooseUs from "../sections/WhyYouChooseUs";
 import Work from "../sections/Work/Work";
 
@@ -84,15 +85,16 @@ const Home = () => (
     </div>
     <div className="relative">
       <Testimonials />
-
+      <WhatWeHave />
       <div className="gradient-04 z-0" />
-      <Team />
+
+      <WhyYouChooseUs />
       {/* <Work /> */}
     </div>
     <div className="relative">
       {/* <Technologies /> */}
-      <WhyYouChooseUs />
 
+      <Team />
       <div className="gradient-04 z-0" />
       <ContactUs />
     </div>

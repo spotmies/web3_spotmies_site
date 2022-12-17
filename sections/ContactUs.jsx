@@ -47,6 +47,8 @@ export default function ContactUs() {
       <div className="flex gap-6 mt-[15px]">
         {socials.map((social) => (
           <img
+            
+            onClick={() => window.open(social.link, "_blank")}
             key={social.name}
             src={social.url}
             alt={social.name}

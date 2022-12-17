@@ -105,3 +105,20 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+/* Chrome, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 15px;
+  
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #292a3a;
+  
+  /* background-color: transparent; */
+}
+::-webkit-scrollbar-thumb:vertical {
+  height: 30px;
+  background-color: #1d1e2c;
+  border-radius: 10px;
+}

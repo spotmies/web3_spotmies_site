@@ -7,11 +7,17 @@ import {
   AiFillLinkedin,
   AiFillTwitterSquare,
 } from "react-icons/ai";
-import { MdOutlineAlternateEmail } from "react-icons/md";
+import {
+  MdLocationCity,
+  MdOutlineAlternateEmail,
+  MdOutlineLocationCity,
+  MdOutlinePhone,
+} from "react-icons/md";
 
 import styles from "../styles";
 import { staggerContainer, fadeIn } from "../utils/motion";
 import { TitleText, TypingText } from "../components";
+import { socials } from "../constants";
 export default function ContactUs() {
   const getInTouch = (
     <motion.div
@@ -25,12 +31,35 @@ export default function ContactUs() {
         <MdOutlineAlternateEmail size="2rem" className="text-slate-400" />
         <p className="text-md text-white ml-[15px]">info@spotmies.com</p>
       </div>
+      <div className="flex flex-row items-start mt-[20px]">
+        <MdOutlineLocationCity size="2.4rem" className="text-slate-400" />
+        <p className="text-md text-white ml-[15px]">
+          AU incubation center, <br /> AU college of engineering,
+          <br /> Visakhapatnam
+        </p>
+      </div>
+      <div className="flex flex-row items-center mt-[20px]">
+        <MdOutlinePhone size="2rem" className="text-slate-400" />
+        <p className="text-md text-white ml-[15px]">+91 8341980196</p>
+      </div>
+
       <p className="text-white font-bold text-md mt-[30px]">Follow us</p>
-      <div className="flex flex-row items-center mt-[15px] gap-[20px]">
+      <div className="flex gap-6 mt-[15px]">
+        {socials.map((social) => (
+          <img
+            key={social.name}
+            src={social.url}
+            alt={social.name}
+            className="w-[30px] h-[30px] object-contain cursor-pointer opacity-70 hover:opacity-100"
+          />
+        ))}
+      </div>
+
+      {/* <div className="flex flex-row items-center mt-[15px] gap-[20px]">
         <AiFillTwitterSquare size="2.4rem" className="text-slate-400" />
         <AiFillInstagram size="2.4rem" className="text-slate-400" />
         <AiFillLinkedin size="2.4rem" className="text-slate-400" />
-      </div>
+      </div> */}
       {/* </div> */}
     </motion.div>
   );

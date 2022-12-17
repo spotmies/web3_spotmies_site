@@ -47,6 +47,21 @@ export const newFeatures = [
   },
 ];
 
+export const whyYouChooseUs = [
+  {
+    imgUrl: '/vrpano.svg',
+    title: 'Simple & Easy',
+    subtitle:
+        'We believe simplicity harder than complex, We are going to make your work more simple to use for your users.',
+  },
+  {
+    imgUrl: '/headset.svg',
+    title: 'Best performance',
+    subtitle:
+        'We always strive to provide the best performance for your application by following best practices and industry standards. ',
+  },
+];
+
 export const insights = [
   {
     imgUrl: '/planet-06.png',
@@ -72,17 +87,20 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    link: "https://twitter.com/spotmies"
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    link: "https://www.linkedin.com/company/spotmies"
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    link: "https://www.instagram.com/spotmies"
   },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
-  },
+  // {
+  //   name: 'facebook',
+  //   url: '/facebook.svg',
+  // },
 ];

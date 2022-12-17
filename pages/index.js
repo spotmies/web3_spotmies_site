@@ -13,9 +13,48 @@ import ContactUs from "../sections/ContactUs";
 import Team from "../sections/Team";
 import Technologies from "../sections/Technologies";
 import Testimonials from "../sections/Testimonials";
+import WhyYouChooseUs from "../sections/WhyYouChooseUs";
 import Work from "../sections/Work/Work";
 
 const Home = () => (
+  // <div className="bg-primary-black overflow-hidden">
+  //   <Navbar />
+  //   <Hero />
+  //   <div className="relative">
+  //     <About />
+  //     <div className="gradient-03 z-0" />
+  //     <Explore />
+  //   </div>
+  //   <div className="relative">
+  //     <GetStarted />
+  //     <div className="gradient-04 z-0" />
+  //     <WhatsNew />
+  //   </div>
+
+  //   <div className="relative">
+  //     <Insights />
+  //     <Feedback />
+
+  //     <div className="gradient-04 z-0" />
+  //     <World />
+  //   </div>
+  //   <div className="relative">
+  //     <ContactUs />
+  //     <div className="gradient-04 z-0" />
+  //     <Testimonials />
+  //   </div>
+  //   <div className="relative">
+  //     <Team />
+  //     <div className="gradient-04 z-0" />
+  //     <Work />
+  //   </div>
+  //   <div className="relative">
+  //     <Technologies />
+  //     <div className="gradient-04 z-0" />
+  //   </div>
+  //   <Footer />
+  // </div>
+
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
     <Hero />
@@ -27,29 +66,35 @@ const Home = () => (
     <div className="relative">
       <GetStarted />
       <div className="gradient-04 z-0" />
-      <WhatsNew />
+      {/* <WhatsNew /> */}
     </div>
 
     <div className="relative">
-      {/* <Insights /> */}
       <Feedback />
-      {/* <Feedback /> */}
-      <div className="gradient-04 z-0" />
-      <World />
-    </div>
-    <div className="relative">
-      <ContactUs />
-      <div className="gradient-04 z-0" />
-      <Testimonials />
-    </div>
-    <div className="relative">
-      <Team />
+
       <div className="gradient-04 z-0" />
       <Work />
     </div>
     <div className="relative">
-      <Technologies />
+      <World />
+      {/* <ContactUs /> */}
       <div className="gradient-04 z-0" />
+      <Technologies />
+      {/* <Testimonials /> */}
+    </div>
+    <div className="relative">
+      <Testimonials />
+
+      <div className="gradient-04 z-0" />
+      <Team />
+      {/* <Work /> */}
+    </div>
+    <div className="relative">
+      {/* <Technologies /> */}
+      <WhyYouChooseUs />
+
+      <div className="gradient-04 z-0" />
+      <ContactUs />
     </div>
     <Footer />
   </div>

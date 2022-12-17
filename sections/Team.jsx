@@ -1,6 +1,4 @@
 import React from "react";
-("use client");
-
 import { motion } from "framer-motion";
 import { BsLinkedin } from "react-icons/bs";
 
@@ -143,7 +141,7 @@ export default function Team() {
               {teamJson.description}
             </p>
             <motion.div
-              variants={fadeIn("up", "easeIn", 1, 1)}
+              variants={fadeIn("up", "tween", 1, 1)}
               className="mt-[48px] flex flex-wrap justify-between gap-[24px]"
             >
               {/* <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]"> */}

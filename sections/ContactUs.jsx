@@ -3,12 +3,6 @@ import React from "react";
 
 import { motion } from "framer-motion";
 import {
-  AiFillInstagram,
-  AiFillLinkedin,
-  AiFillTwitterSquare,
-} from "react-icons/ai";
-import {
-  MdLocationCity,
   MdOutlineAlternateEmail,
   MdOutlineLocationCity,
   MdOutlinePhone,
@@ -47,7 +41,6 @@ export default function ContactUs() {
       <div className="flex gap-6 mt-[15px]">
         {socials.map((social) => (
           <img
-            
             onClick={() => window.open(social.link, "_blank")}
             key={social.name}
             src={social.url}

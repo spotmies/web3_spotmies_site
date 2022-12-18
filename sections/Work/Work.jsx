@@ -51,7 +51,7 @@ const Work = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={` mx-auto flex flex-col`}
       >
         <TypingText title="| Projects" textStyles="text-center" />
         <TitleText

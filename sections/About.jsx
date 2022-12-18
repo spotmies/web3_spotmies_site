@@ -20,9 +20,11 @@ const About = () => (
 
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-justify text-secondary-white"
       >
-        <span className="font-extrabold text-white">Spotmies </span>
+        <span className="font-extrabold text-white">
+          Spotmies{" "}
+        </span>
         uses advanced technologies to deliver unique digital services for your
         innovative thoughts and transformative ideas. we bring perfect attire
         and follow subtle approaches which mould your ideas to their perfection.

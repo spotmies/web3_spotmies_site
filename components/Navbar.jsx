@@ -17,9 +17,9 @@ const Navbar = () => (
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
       <img
-        src="/search.svg"
+        src="/spotmies_logo.png"
         alt="search"
-        className="w-[24px] h-[24px] object-contain"
+        className="w-[45px] h-[45px] object-contain"
       />
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
         SPOTMIES

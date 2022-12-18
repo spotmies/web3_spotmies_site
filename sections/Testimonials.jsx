@@ -28,13 +28,14 @@ export default function Testimonials() {
           viewport={{ once: false, amount: 0.25 }}
           className={`${styles.innerWidth} mt-[50px] flex flex-row justify-between items-start w-[100%]`}
         >
-          {/* <div className="mt-[50px] flex flex-row justify-between items-start w-[100%]"> */}
-          <div className="flex relative pb-10  ">
+          
+          <div className="flex flex-col md:flex-row relative pb-10">
             {testimonialCard()}
             {testimonialCard()}
             {testimonialCard()}
+            
           </div>
-          {/* </div> */}
+         
         </motion.div>
       </motion.div>
     </section>
@@ -44,7 +45,7 @@ export default function Testimonials() {
     return (
       <motion.div
         variants={fadeIn("left", "tween", 0.2, 1)}
-        className="w-[500px] h-[300px] gradient-05 rounded-[20px] m-2 p-6 shadow-md"
+        className="md:w-[500px] w-[85vw] h-[300px] gradient-05 rounded-[20px] m-2 p-6 shadow-md"
       >
         {/* <div className="w-[500px] h-[300px] gradient-05 rounded-[20px] m-2 p-6 shadow-md"> */}
         <div className="flex flex-col h-full justify-between">

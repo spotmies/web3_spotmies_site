@@ -3,9 +3,12 @@ import React, { useState } from "react";
 
 import { motion } from "framer-motion";
 import {
+  MdEmail,
+  MdLocationCity,
   MdOutlineAlternateEmail,
   MdOutlineLocationCity,
   MdOutlinePhone,
+  MdPhone,
 } from "react-icons/md";
 
 import styles from "../styles";
@@ -69,19 +72,20 @@ export default function ContactUs() {
       <p className="text-5xl font-bold text-white">Get in touch</p>
       <p className="text-md text-slate-400 mt-[30px]">Connect with us today</p>
       <div className="flex flex-row items-center mt-[20px]">
-        <MdOutlineAlternateEmail size="2rem" className="text-slate-400" />
+        <MdEmail size="2rem" className="text-slate-500" />
         <p className="text-md text-white ml-[15px]">info@spotmies.com</p>
       </div>
+     
+      <div className="flex flex-row items-center mt-[20px]">
+        <MdPhone size="2rem" className="text-slate-500" />
+        <p className="text-md text-white ml-[15px]">+91 8341980196</p>
+      </div>
       <div className="flex flex-row items-start mt-[20px]">
-        <MdOutlineLocationCity size="2.4rem" className="text-slate-400" />
+        <MdLocationCity size="2.4rem" className="text-slate-500" />
         <p className="text-md text-white ml-[15px]">
           AU incubation center, <br /> AU college of engineering,
           <br /> Visakhapatnam
         </p>
-      </div>
-      <div className="flex flex-row items-center mt-[20px]">
-        <MdOutlinePhone size="2rem" className="text-slate-400" />
-        <p className="text-md text-white ml-[15px]">+91 8341980196</p>
       </div>
 
       <p className="text-white font-bold text-md mt-[30px]">Follow us</p>

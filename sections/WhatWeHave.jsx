@@ -26,14 +26,14 @@ export default function WhatWeHave() {
           className="w-[95%] md:w-[85%] h-[200px] md:h-[230px] gradient-05 m-auto rounded-[20px] shadow-lg flex flex-row items-center justify-between pr-5 pl-5  md:pr-10 md:pl-10"
         >
           <img
-            src="/get-started.png"
+            src="/rocket_with_graph.png"
             alt="stamp"
-            className="w-[100%] md:w-[50%] h-full object-cover md:block hidden"
+            className="w-[100%] md:w-[30%] h-full object-cover md:block hidden"
           />
           <div className="w-full md:w-[50%] flex flex-row items-center justify-between">
             {progressCard("Projects", 15)}
             {progressCard("Dapps", 5)}
-            {progressCard("Clients", 6)}
+            {progressCard("Clients", 10)}
           </div>
         </motion.div>
       </motion.div>

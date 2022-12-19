@@ -3,9 +3,10 @@
 import { motion } from "framer-motion";
 
 import styles from "../styles";
-import { newFeatures, whyYouChooseUs } from "../constants";
+import { whyYouChooseUs } from "../constants";
 import { NewFeatures, TitleText, TypingText } from "../components";
 import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
+import { MdPhone } from "react-icons/md";
 
 const WhyYouChooseUs = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -21,7 +22,7 @@ const WhyYouChooseUs = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/get-started.png"
+          src="/choose_us.png"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />
@@ -35,7 +36,7 @@ const WhyYouChooseUs = () => (
         <div className="mt-[31px] flex flex-col max-w-[450px] gap-[24px]">
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
             {whyYouChooseUs.map((feature) => (
-              <NewFeatures key={feature.title} {...feature} />
+              <NewFeatures key={feature.title} {...feature}  />
             ))}
           </div>
         </div>

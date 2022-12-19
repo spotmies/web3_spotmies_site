@@ -139,15 +139,18 @@ export default function Team() {
             </p>
             <p className="w-full w-[90%] md:w-[70%] text-justify text-white opacity-80 mt-4">
               {teamJson.description}
+              <br />
+              <br />
+              {teamJson.description2}
             </p>
             <motion.div
               variants={fadeIn("up", "tween", 1, 1)}
               className="mt-[48px] flex flex-wrap justify-between gap-[24px]"
             >
               {/* <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]"> */}
-              {newFeatures.map((feature) => (
+              {/* {newFeatures.map((feature) => (
                 <NewFeatures key={feature.title} {...feature} />
-              ))}
+              ))} */}
               {/* </div> */}
             </motion.div>
             {/* </div> */}

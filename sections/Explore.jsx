@@ -39,6 +39,7 @@ const Explore = () => {
               index={index}
               active={active}
               handleClick={setActive}
+              icon={world.icon}
             />
           ))}
         </div>

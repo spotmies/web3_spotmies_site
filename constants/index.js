@@ -1,8 +1,12 @@
+import { MdPhone } from "react-icons/md";
+
 export const exploreWorlds = [
   {
     id: "world-1",
     imgUrl: "/uiux2.jpeg",
+    invertColor: true,
     title: "UI/UX",
+    icon: "/ui_icon.png",
     description:
       "It creates an enjoyable and intuitive experience for Your users. It allows users to easily interact with a product or service.",
   },
@@ -10,12 +14,16 @@ export const exploreWorlds = [
     id: "world-2",
     imgUrl: "/web3dev2.jpeg",
     title: "WEB 3.0",
+    invertColor: true,
+    icon: "/smart-contract.png",
     description:
       "Blockchain services are becoming increasingly important in many industries, as they provide a secure, transparent, and immutable platform on which to store data and execute transactions.",
   },
   {
     id: "world-3",
     imgUrl: "/appdev.png",
+    invertColor: true,
+    icon: "/mobile-development.png",
     title: "ANDROID & IOS",
     description:
       "Creating a mobile app is a great way to reach your customers and grow your business.",
@@ -23,6 +31,8 @@ export const exploreWorlds = [
   {
     id: "world-4",
     imgUrl: "/webdev.jpeg",
+    invertColor: true,
+    icon: "/web-programming.png",
     title: "WEB & DESKTOP APPS",
     description:
       "We build web and desktop apps that are fast, secure, and scalable with the help of the latest technologies like React, Node, MongoDB And Next.js.",
@@ -35,9 +45,22 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  "We analyze your requirements and provide you with the best solution",
-  "The UI/UX design is done by our team of experts to give you the best experience",
-  "We develop your product with the latest technologies to deliver you the outstanding performance",
+  {
+    text: "We analyze your requirements and provide you with the best solution",
+    image: "/research.png",
+    invertColor: true,
+  },
+  {
+    text: "The UI/UX design is done by our team of experts to give you the best experience",
+    image: "/design.png",
+    invertColor: true,
+  },
+  {
+    text: "We develop your product with the latest technologies to deliver you the outstanding performance",
+    // image: "/product-innovation.png",
+    image: "/option.png",
+    invertColor: true,
+  },
 ];
 
 export const newFeatures = [
@@ -57,13 +80,17 @@ export const newFeatures = [
 
 export const whyYouChooseUs = [
   {
-    imgUrl: "/vrpano.svg",
+    icon: MdPhone,
+    imgUrl: "/easy.png",
+    invertColor: true,
     title: "Simple & Easy",
     subtitle:
       "We believe simplicity harder than complex, We are going to make your work more simple to use for your users.",
   },
   {
-    imgUrl: "/headset.svg",
+    icon: MdPhone,
+    invertColor: true,
+    imgUrl: "/dashboard.png",
     title: "Best performance",
     subtitle:
       "We always strive to provide the best performance for your application by following best practices and industry standards. ",
@@ -116,4 +143,28 @@ export const socials = [
   //   name: 'facebook',
   //   url: '/facebook.svg',
   // },
+];
+
+export const testimonials = [
+  {
+    name: "Ravi Unukuru",
+    position: "Web3 Entrepreneur",
+    when: "2 months ago",
+    image: "/people-01.png",
+    text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the blockchain devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
+  },
+  {
+    name: "Vamsi Gummadi",
+    position: "CEO of Sweken",
+    when: "8 months ago",
+    image: "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2F289647986_7627729177302421_965938227967618398_n.jpeg?alt=media&token=8a87c5db-7d2b-490f-874c-2c9a2c70299e",
+    text: "Spotmies team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
+  },
+  {
+    name: "Anand Boddeti",
+    position: "A Square Entertainment",
+    when: "2 months ago",
+    image: "/people-01.png",
+    text: "Working with team spotmies was an amazing experience. The team was knowledgeable and extremely helpful throughout the process.",
+  },
 ];

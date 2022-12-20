@@ -37,3 +37,4 @@ next-env.d.ts
 
 # vscode
 .vscode
+.firebase/hosting.b3V0.cache

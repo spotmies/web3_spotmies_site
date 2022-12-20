@@ -19,7 +19,7 @@ const Navbar = () => (
       <img
         src="/spotmies_logo.png"
         alt="search"
-        className="w-[45px] h-[45px] object-contain"
+        className="md:w-[45px] md:h-[45px] w-[35px] h-[35px] object-contain"
       />
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
         SPOTMIES

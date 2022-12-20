@@ -119,7 +119,7 @@ export default function Team() {
         <TypingText title="| Team" textStyles="text-center" />
         <TitleText
           title={<>We are a team of Experts.</>}
-          textStyles="text-center"
+          textStyles={`text-center ${styles.sideHeadingLeading}`}
         />
         <motion.div
           variants={staggerContainer}
@@ -134,7 +134,7 @@ export default function Team() {
             className="w-[100%] md:w-[50%] flex flex-col items-start mt-[3%]"
           >
             {/* <div className= "w-[100%] md:w-[50%] flex flex-col items-start mt-[3%]"> */}
-            <p className="text-4xl font-bold text-white">
+            <p className="text-2xl md:text-4xl font-bold text-white">
               We believe quality matters.
             </p>
             <p className="w-full w-[90%] md:w-[70%] text-justify text-white opacity-80 mt-4">

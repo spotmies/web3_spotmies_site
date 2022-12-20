@@ -346,6 +346,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media screen and (max-width: 450px) {
+    background-attachment:inherit;
+  }
+
 }
 .bg-image-parallax{
   background-image: url("https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fsekhar.jpg?alt=media&token=4732c944-5547-4bab-a863-648c06cb174f");

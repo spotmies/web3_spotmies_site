@@ -39,7 +39,7 @@ export default function Testimonials2() {
         <TypingText title="| Testimonials" textStyles="" />
         <TitleText
           title={<>Helping our client to succeed with speed</>}
-          textStyles=" w-[70%]"
+          textStyles={`w-[100%] md:w-[70%] ${styles.sideHeadingLeading}`}
         />
         <motion.div
           variants={staggerContainer}
@@ -64,8 +64,8 @@ export default function Testimonials2() {
 
   function testimonialCard({ text, image, name, position, when }) {
     return (
-      <div className="w-[80vw] min-h-[300px] max-h-[350px]  md:max-h-[350px] h-[300px] md:w-[400px] md:h-[300px] gradient-05 rounded-[20px] m-2 md:p-6 p-4 shadow-md">
-        <div className="flex flex-col h-full justify-between">
+      <div className="flex flex-col justify-between w-[80vw] min-h-[300px] max-h-[350px] md:max-h-[350px] md:min-h-[300px] md:w-[400px] gradient-05 rounded-[20px] m-2 md:p-6 p-4 shadow-lg">
+        {/* <div className="flex flex-col h-full justify-between"> */}
           <p className="text-white opacity-80 text-md  md:text-xl  text-justify text-ellipsis">
             "{text}"
           </p>
@@ -77,14 +77,18 @@ export default function Testimonials2() {
                 alt=""
                 className="w-[35px] h-[35px] md:w-[50px] md:h-[50px] rounded-full"
               />
-              <div className="flex flex-col ml-4">
-                <p className="text-white font-bold text-md md:text-xl">{name}</p>
-                <p className="text-white opacity-50 text-sm md:text-md">{position}</p>
+              <div className="flex flex-col ml-1 md:ml-4">
+                <p className="text-white font-bold text-md md:text-xl">
+                  {name}
+                </p>
+                <p className="text-white opacity-50 text-xs md:text-md">
+                  {position}
+                </p>
               </div>
             </div>
-            <p className="text-white opacity-50 text-xs md:text-sm">{when}</p>
+            <p className="text-white opacity-50 text-[9px] md:text-sm">{when}</p>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     );
   }

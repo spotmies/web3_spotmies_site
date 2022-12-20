@@ -20,7 +20,7 @@ const Feedback = () => (
       <TypingText title="| Recent Web 3.0 Projects" textStyles="text-center" />
       <TitleText
         title={<>Have a look at some of the recent projects Web3.0</>}
-        textStyles="text-center"
+        textStyles={`text-center ${styles.sideHeadingLeading}`}
       />
       {card(cypherb.title, cypherb.glimpse, cypherb.description, cypherb.image)}
       <div className="h-[50px]" />
@@ -45,7 +45,7 @@ function card(title, smallDescription, description, link) {
       {/* 1st slide */}
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-between flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
+        className="flex-[0.5] lg:max-w-[370px] flex justify-between flex-col gradient-05 sm:p-8 p-4 rounded-[22px] md:rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
         <div className="feedback-gradient" />
         <div>
@@ -69,7 +69,7 @@ function card(title, smallDescription, description, link) {
         <img
           src={link}
           alt="planet-09"
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[20px] md:rounded-[32px]"
         />
       </motion.div>
     </motion.div>

@@ -139,7 +139,7 @@ export const socials = [
   },
   {
     name: "github",
-    url: "https://www.pngkey.com/png/full/178-1787366_coming-soon-github-white-icon-png.png",
+    url: "/github-icon.png",
     link: "https://github.com/spotmies",
   },
   // {

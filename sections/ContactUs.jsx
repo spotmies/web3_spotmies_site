@@ -124,7 +124,7 @@ export default function ContactUs() {
         <TypingText title="| Contact Us" textStyles="text-center" />
         <TitleText
           title={<>Take A Coffee & Chat With Us</>}
-          textStyles="text-center"
+          textStyles={`text-center ${styles.sideHeadingLeading}`}
         />
         <motion.div
           variants={staggerContainer}

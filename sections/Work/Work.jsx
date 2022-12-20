@@ -56,7 +56,7 @@ const Work = () => {
         <TypingText title="| Projects" textStyles="text-center" />
         <TitleText
           title={<>Our Creative Portfolio.</>}
-          textStyles="text-center"
+          textStyles={`text-center ${styles.sideHeadingLeading}`}
         />
         {filterSection({ arrayy: ["All", "Web 3", "Web 2"] })}
 

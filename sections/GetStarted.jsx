@@ -31,7 +31,7 @@ const GetStarted = () => (
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| How We Works" />
-        <TitleText title={<>How we get into the project</>} />
+        <TitleText title={<>How we get into the project</>} textStyles={`${styles.sideHeadingLeading}`} />
         <div className="mt-[31px] flex flex-col max-w-[450px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps

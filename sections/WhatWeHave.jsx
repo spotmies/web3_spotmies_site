@@ -19,11 +19,11 @@ export default function WhatWeHave() {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText title="| Progress" textStyles="text-center" />
-        <TitleText title={<>Look at our traction</>} textStyles="text-center" />
+        <TitleText title={<>Look at our traction</>} textStyles={`text-center ${styles.sideHeadingLeading}`} />
         <div className="h-[100px]" />
         <motion.div
           variants={fadeIn("up", "tween", 0.2, 1)}
-          className="w-[95%] md:w-[85%] h-[200px] md:h-[230px] gradient-05 m-auto rounded-[20px] shadow-lg flex flex-row items-center justify-between pr-5 pl-5  md:pr-10 md:pl-10"
+          className="w-[100%] md:w-[85%] h-[200px] md:h-[230px] gradient-05 m-auto rounded-[20px] shadow-lg flex flex-row items-center justify-between pr-5 pl-5  md:pr-10 md:pl-10"
         >
           <img
             src="/rocket_with_graph.png"
@@ -43,10 +43,12 @@ export default function WhatWeHave() {
   function progressCard(title, count) {
     return (
       <div className="flex flex-col items-left justify-center">
-        <p className="font-extrabold text-5xl text-slate-300">
-          {" "}
-          <CountUp enableScrollSpy = {true} end={count} />+
+        <p className="font-extrabold text-3xl md:text-5xl text-slate-300 flex flex-row items-center justify-center">
+          
+          <CountUp enableScrollSpy = {true} end={count} />
+          <span className="md:mb-[15px] mb-[8px]">+</span>
         </p>
+       
         <p className="opacity-30 text-slate-50">{title}</p>
       </div>
     );

@@ -3,7 +3,7 @@ import { MdPhone } from "react-icons/md";
 export const exploreWorlds = [
   {
     id: "world-1",
-    imgUrl: "/uiux2.jpeg",
+    imgUrl: "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fuiux%20(1).png?alt=media&token=1c945059-691b-4ef6-a656-8d7492a6c9be",
     invertColor: true,
     title: "UI/UX",
     icon: "/ui_icon.png",
@@ -13,7 +13,7 @@ export const exploreWorlds = [
   {
     id: "world-2",
     imgUrl:
-      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fuiux.png?alt=media&token=542b2722-8626-49cb-85ca-a6404d00b2b9",
+      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fweb3.png?alt=media&token=3609b441-144c-42b7-a498-faa8454b6096",
     title: "WEB 3.0",
     invertColor: true,
     icon: "/smart-contract.png",
@@ -23,7 +23,7 @@ export const exploreWorlds = [
   {
     id: "world-3",
     imgUrl:
-      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fandroid%20and%20ios.png?alt=media&token=5526b3f9-3fa9-4676-a81f-cec6127a76a2",
+      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fapp%20dev.png?alt=media&token=8fac7a4b-7cf4-4f22-aafd-acd620cd2671",
     invertColor: true,
     icon: "/mobile-development.png",
     title: "ANDROID & IOS",
@@ -33,7 +33,7 @@ export const exploreWorlds = [
   {
     id: "world-4",
     imgUrl:
-      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fweb%20development.png?alt=media&token=472ccbe0-9390-44c3-9617-2226a881d16b",
+      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fweb%20dev.png?alt=media&token=1b1c9225-2b0a-47d2-86f2-a4aa5f8e46b7",
     invertColor: true,
     icon: "/web-programming.png",
     title: "WEB & DESKTOP APPS",
@@ -165,13 +165,6 @@ export const testimonials = [
     text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the blockchain devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
   },
 
-  {
-    name: "Anand Boddeti",
-    position: "A Square Entertainment",
-    when: "2 months ago",
-    image: "/people-01.png",
-    text: "Working with team spotmies was an amazing experience. The team was knowledgeable and extremely helpful throughout the process.",
-  },
   {
     name: "Anand Boddeti",
     position: "A Square Entertainment",

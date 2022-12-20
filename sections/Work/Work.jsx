@@ -45,7 +45,7 @@ const Work = () => {
   };
 
   return (
-    <section className={`relative z-10`}>
+    <section className={`z-10`}>
       <motion.div
         variants={staggerContainer}
         initial="hidden"

@@ -80,7 +80,7 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="">
       {screenType === "desktop" ? (
         <div className="bg-primary-black overflow-hidden">{mainUi()}</div>
       ) : (

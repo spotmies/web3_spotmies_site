@@ -12,7 +12,7 @@ const styles = {
   flexStart: "flex justify-start items-start",
   flexEnd: "flex justify-end",
   navPadding: "pt-[98px]",
-  sideHeadingLeading: " leading-[40px] md:leading-[70px]",
+  sideHeadingLeading: "leading-[40px] md:leading-[70px]",
 
   // hero section
   heroHeading:

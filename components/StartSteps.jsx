@@ -12,7 +12,7 @@ const StartSteps = ({ number, text, image, invertColor }) => (
         style={invertColor ? { filter: "invert(1)" } : {}}
       />
     </div>
-    <p className="flex-1 ml-[30px] font-normal text-[18px] text-[#B0B0B0] leading-[22.4px]">
+    <p className="flex-1 ml-[30px] font-normal text-[14px] md:text-[18px] text-[#B0B0B0] leading-[22.4px]">
       {text}
     </p>
   </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 ("use client");
 
 import { motion } from "framer-motion";
@@ -7,7 +7,9 @@ import styles from "../styles";
 import { staggerContainer, fadeIn } from "../utils/motion";
 import { TitleText, TypingText } from "../components";
 import { testimonials } from "../constants";
+import { MdArrowRight } from "react-icons/md";
 export default function Testimonials() {
+  const card3 = useRef(null);
   return (
     <section className={`${styles.paddings} relative z-10`}>
       <motion.div
@@ -29,8 +31,20 @@ export default function Testimonials() {
           viewport={{ once: false, amount: 0.25 }}
           className={`${styles.innerWidth} mt-[50px] flex flex-row justify-between items-start w-[100%]`}
         >
-          <div className="flex flex-col md:flex-row relative pb-10">
-            {testimonials.map((testimonial, index) => testimonialCard({...testimonial, key: index}))}
+          <div className="flex flex-col md:flex-row relative pb-10  h-full" ref={card3}>
+            {testimonials.map((testimonial, index) =>
+              testimonialCard({ ...testimonial, key: index })
+            )}
+            {/* <MdArrowRight
+            onClick={() =>{
+            
+            card3.current.scrollIntoView({ behavior: "smooth" });
+
+              
+            }}
+              size="4rem"
+              className="absolute left-0 top-1 bottom-1"
+            /> */}
           </div>
         </motion.div>
       </motion.div>

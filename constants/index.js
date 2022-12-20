@@ -12,7 +12,8 @@ export const exploreWorlds = [
   },
   {
     id: "world-2",
-    imgUrl: "/web3dev2.jpeg",
+    imgUrl:
+      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fuiux.png?alt=media&token=542b2722-8626-49cb-85ca-a6404d00b2b9",
     title: "WEB 3.0",
     invertColor: true,
     icon: "/smart-contract.png",
@@ -21,7 +22,8 @@ export const exploreWorlds = [
   },
   {
     id: "world-3",
-    imgUrl: "/appdev.png",
+    imgUrl:
+      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fandroid%20and%20ios.png?alt=media&token=5526b3f9-3fa9-4676-a81f-cec6127a76a2",
     invertColor: true,
     icon: "/mobile-development.png",
     title: "ANDROID & IOS",
@@ -30,7 +32,8 @@ export const exploreWorlds = [
   },
   {
     id: "world-4",
-    imgUrl: "/webdev.jpeg",
+    imgUrl:
+      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fweb%20development.png?alt=media&token=472ccbe0-9390-44c3-9617-2226a881d16b",
     invertColor: true,
     icon: "/web-programming.png",
     title: "WEB & DESKTOP APPS",
@@ -147,18 +150,27 @@ export const socials = [
 
 export const testimonials = [
   {
+    name: "Vamsi Gummadi",
+    position: "CEO of Sweken",
+    when: "8 months ago",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2F289647986_7627729177302421_965938227967618398_n.jpeg?alt=media&token=8a87c5db-7d2b-490f-874c-2c9a2c70299e",
+    text: "Spotmies team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
+  },
+  {
     name: "Ravi Unukuru",
     position: "Web3 Entrepreneur",
     when: "2 months ago",
     image: "/people-01.png",
     text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the blockchain devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
   },
+
   {
-    name: "Vamsi Gummadi",
-    position: "CEO of Sweken",
-    when: "8 months ago",
-    image: "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2F289647986_7627729177302421_965938227967618398_n.jpeg?alt=media&token=8a87c5db-7d2b-490f-874c-2c9a2c70299e",
-    text: "Spotmies team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
+    name: "Anand Boddeti",
+    position: "A Square Entertainment",
+    when: "2 months ago",
+    image: "/people-01.png",
+    text: "Working with team spotmies was an amazing experience. The team was knowledgeable and extremely helpful throughout the process.",
   },
   {
     name: "Anand Boddeti",

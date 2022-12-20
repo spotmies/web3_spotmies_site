@@ -16,46 +16,9 @@ import Testimonials from "../sections/Testimonials";
 import WhatWeHave from "../sections/WhatWeHave";
 import WhyYouChooseUs from "../sections/WhyYouChooseUs";
 import Work from "../sections/Work/Work";
+import Testimonials2 from "../sections/testimonials2";
 
 const Home = () => (
-  // <div className="bg-primary-black overflow-hidden">
-  //   <Navbar />
-  //   <Hero />
-  //   <div className="relative">
-  //     <About />
-  //     <div className="gradient-03 z-0" />
-  //     <Explore />
-  //   </div>
-  //   <div className="relative">
-  //     <GetStarted />
-  //     <div className="gradient-04 z-0" />
-  //     <WhatsNew />
-  //   </div>
-
-  //   <div className="relative">
-  //     <Insights />
-  //     <Feedback />
-
-  //     <div className="gradient-04 z-0" />
-  //     <World />
-  //   </div>
-  //   <div className="relative">
-  //     <ContactUs />
-  //     <div className="gradient-04 z-0" />
-  //     <Testimonials />
-  //   </div>
-  //   <div className="relative">
-  //     <Team />
-  //     <div className="gradient-04 z-0" />
-  //     <Work />
-  //   </div>
-  //   <div className="relative">
-  //     <Technologies />
-  //     <div className="gradient-04 z-0" />
-  //   </div>
-  //   <Footer />
-  // </div>
-
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
     <Hero />
@@ -82,7 +45,8 @@ const Home = () => (
       <Technologies />
     </div>
     <div className="relative">
-      <Testimonials />
+      {/* <Testimonials /> */}
+      <Testimonials2 />
       <WhatWeHave />
       <div className="gradient-04 z-0" />
 

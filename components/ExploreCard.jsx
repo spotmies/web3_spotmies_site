@@ -26,7 +26,7 @@ const ExploreCard = ({
     <img
       src={imgUrl}
       alt="planet-04"
-      className="absolute w-full h-full object-cover rounded-[24px]"
+      className="absolute bg-[#293747] w-full h-full object-cover rounded-[24px]"
       
     />
     {active !== id ? (

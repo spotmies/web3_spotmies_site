@@ -45,7 +45,7 @@ export default function WhatWeHave() {
       <div className="flex flex-col items-left justify-center">
         <p className="font-extrabold text-3xl md:text-5xl text-slate-300 flex flex-row items-center justify-center">
           
-          <CountUp enableScrollSpy = {true} end={count} />
+          <CountUp enableScrollSpy = {true} end={count}/>
           <span className="md:mb-[15px] mb-[8px]">+</span>
         </p>
        

@@ -20,7 +20,7 @@ const Hero = () => (
           variants={textVariant(1.1)}
           className={`${styles.heroHeading} text-center`}
         >
-          We Help Startups Launch 🚀 Their Product In The New Era Of The
+          We Help Startups Launch 🚀 Their Products In The New Era Of The
           Internet
         </motion.h1>
         <motion.div

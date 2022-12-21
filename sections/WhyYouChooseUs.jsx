@@ -31,7 +31,7 @@ const WhyYouChooseUs = () => (
         variants={fadeIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How We Works" />
+        {/* <TypingText title="| How We Works" /> */}
         <TitleText title={<>Why Choose Us?</>} />
         <div className="mt-[31px] flex flex-col max-w-[450px] gap-[24px]">
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">

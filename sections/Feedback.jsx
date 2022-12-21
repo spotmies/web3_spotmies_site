@@ -17,14 +17,14 @@ const Feedback = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| Recent Web 3.0 Projects" textStyles="text-center" />
+      <TypingText title="| Recent Projects" textStyles="text-center" />
       <TitleText
-        title={<>Have a look at some of the recent projects Web3.0</>}
-        textStyles={`text-center ${styles.sideHeadingLeading}`}
+        title={<>Have a look at some of the recent Web 3.0 projects</>}
+        textStyles={`text-center ${styles.sideHeadingLeading} pb-6`}
       />
-      {card(cypherb.title, cypherb.glimpse, cypherb.description, cypherb.image)}
+      {card(cypherb.title, cypherb.glimpse, cypherb.description, cypherb.image, cypherb.more_description)}
       <div className="h-[50px]" />
-      {card(indieskulls.title, indieskulls.glimpse, indieskulls.description, indieskulls.image)}
+      {card(indieskulls.title, indieskulls.glimpse, indieskulls.description, indieskulls.image, indieskulls.more_description)}
       <div className="h-[50px]" />
       {/* {card()} */}
       {/* 2nd slide */}
@@ -33,7 +33,7 @@ const Feedback = () => (
 );
 
 export default Feedback;
-function card(title, smallDescription, description, link) {
+function card(title, smallDescription, description, link,more_description) {
   return (
     <motion.div
       variants={staggerContainer}
@@ -52,13 +52,16 @@ function card(title, smallDescription, description, link) {
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
             {title}
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
+          <p className="mt-[8px] font-normal sm:text-[14px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white opacity-50">
             {smallDescription}
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          {description}
+        <p className="mt-[24px] font-normal sm:text-[20px] text-[18px] sm:leading-[30.6px] leading-[30.6px] text-white">
+          {description} 
+          <span className="hidden md:block">
+           {more_description}
+          </span>
         </p>
       </motion.div>
 

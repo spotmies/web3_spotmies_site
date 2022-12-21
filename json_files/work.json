@@ -42,7 +42,8 @@
     "tags": ["Web 3"],
     "title": "Cypher-B",
     "glimpse": "Verification system",
-    "completed": true
+    "completed": true,
+    "more_description": "Employers can verify a job candidate's identity and qualifications in a secure, tamper-proof way. This can help employers make more informed hiring decisions and avoid hiring fraudulent or unqualified candidates."
   },
   {
     "_createdAt": "2022-02-01T04:51:08Z",
@@ -65,7 +66,8 @@
     "tags": ["Web 3", "NFT"],
     "title": "Indie skull syndicate",
     "glimpse": "NFT based project",
-    "completed": true
+    "completed": true,
+    "more_description": "ISS is a NFT based project developed with blockchain(solidity) for secure and accurates crypto transactions. connected with IPFS (for storage and retrieval of data) and opensea."
   },
   {
     "_createdAt": "2022-02-01T04:51:08Z",
@@ -74,7 +76,7 @@
     "_type": "works",
     "_updatedAt": "2022-02-03T10:42:52Z",
     "codeLink": "https://google.com",
-    "description": "Pum pend ump is NFT(non-fungible tokens) based project developed with blockchain(solidity) for secure and accurates crypto transactions. connected with IPFS (for storage and retrieval of data) and opensea.",
+    "description": "Pum pend ump is NFT(non-fungible tokens) based project developed with blockchain for secure and accurates crypto transactions. connected with IPFS (for storage and retrieval of data) and opensea.",
     "imgUrl": {
       "_type": "image",
       "asset": {

@@ -32,14 +32,14 @@ export default function Technologies() {
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex "
               key={skill.name}
             >
               <div
-                className="app__flex"
+                className="app__flex cursor-pointer"
                 style={{ backgroundColor: skill.bgColor }}
               >
-                <img src={skill.image ?? urlFor(skill.icon)} alt={skill.name} className="object-fit w-full h-full" />
+                <img src={skill.image ?? urlFor(skill.icon)} alt={skill.name} className="object-fit w-full h-full " />
               </div>
               <p className="p-text text-white opacity-50">{skill.name}</p>
             </motion.div>

@@ -12,7 +12,7 @@ export default function Testimonials2() {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
-      partialVisibilityGutter: 0,
+      partialVisibilityGutter: 70,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -91,7 +91,7 @@ export default function Testimonials2() {
                   <img
                     src={testimonial.image}
                     alt=""
-                    className="cursor-pointer h-[70px] object-contain m-auto filter grayscale hover:grayscale-0  opacity-50 hover:opacity-100 transition-all duration-300 ease-in-out" 
+                    className="cursor-pointer h-[60px] w-[160px] object-contain m-auto filter grayscale hover:grayscale-0  opacity-50 hover:opacity-100 transition-all duration-300 ease-in-out" 
 
                   
                   />

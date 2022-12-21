@@ -19,15 +19,15 @@ const Navbar = () => (
       <img
         src="/spotmies_logo.png"
         alt="search"
-        className="md:w-[45px] md:h-[45px] w-[35px] h-[35px] object-contain"
+        className="md:w-[45px] md:h-[45px] w-[35px] h-[35px] object-contain cursor-pointer"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white cursor-pointer">
         SPOTMIES
       </h2>
       <img
         src="/menu.svg"
         alt="menu"
-        className="w-[24px] h-[24px] object-contain"
+        className="w-[24px] h-[24px] object-contain cursor-pointer"
       />
     </div>
   </motion.nav>

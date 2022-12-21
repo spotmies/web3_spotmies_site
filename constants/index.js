@@ -3,7 +3,8 @@ import { MdPhone } from "react-icons/md";
 export const exploreWorlds = [
   {
     id: "world-1",
-    imgUrl: "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fuiux%20(1).png?alt=media&token=1c945059-691b-4ef6-a656-8d7492a6c9be",
+    imgUrl:
+      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fuiux%20(1).png?alt=media&token=1c945059-691b-4ef6-a656-8d7492a6c9be",
     invertColor: true,
     title: "UI/UX",
     icon: "/ui_icon.png",
@@ -160,7 +161,7 @@ export const testimonials = [
   {
     name: "Ravi Unukuru",
     position: "Web3 Entrepreneur",
-    when: "2 months ago",
+    when: "1 months ago",
     image: "/people-01.png",
     text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the blockchain devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
   },
@@ -171,5 +172,28 @@ export const testimonials = [
     when: "2 months ago",
     image: "/people-01.png",
     text: "Working with team spotmies was an amazing experience. The team was knowledgeable and extremely helpful throughout the process.",
+  },
+];
+
+export const clients = [
+  {
+    name: "Sweken",
+    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Flogo-final.png?alt=media&token=096b08ad-a9ec-461d-b336-69bfa0475e3e",
+    link: "https://sweken.com",
+  },
+  {
+    name: "Indie skull syndicate",
+    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fiss_logo.png?alt=media&token=716d5a65-7225-4f30-a11c-2e955f021702",
+    link: "https://indieskullsyndicate.xyz",
+  },
+  {
+    name: "A Square Entertainment",
+    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fgokart_logo_large.png?alt=media&token=f52684c2-bcf0-4b25-ad6c-3e5fee041e97",
+    link: "https://asquaregokarting.com",
+  },
+  {
+    name: "CypherB",
+    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fblue_banner%20(1).png?alt=media&token=6e70a6be-3178-4462-8423-c2ce4a44e513",
+    link: "https://cypherb.com",
   },
 ];

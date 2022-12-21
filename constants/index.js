@@ -4,7 +4,7 @@ export const exploreWorlds = [
   {
     id: "world-1",
     imgUrl:
-      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fuiux%20(1).png?alt=media&token=1c945059-691b-4ef6-a656-8d7492a6c9be",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fuiux%20(1).png?alt=media&token=fb1e0a3d-acef-471a-b267-8c24bfc9eedc",
     invertColor: true,
     title: "UI/UX",
     icon: "/ui_icon.png",
@@ -14,7 +14,7 @@ export const exploreWorlds = [
   {
     id: "world-2",
     imgUrl:
-      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fweb3.png?alt=media&token=3609b441-144c-42b7-a498-faa8454b6096",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fweb3.png?alt=media&token=80b43d49-01bb-44c9-b6c1-fed4a6ead3a7",
     title: "WEB 3.0",
     invertColor: true,
     icon: "/smart-contract.png",
@@ -24,7 +24,7 @@ export const exploreWorlds = [
   {
     id: "world-3",
     imgUrl:
-      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fapp%20dev.png?alt=media&token=8fac7a4b-7cf4-4f22-aafd-acd620cd2671",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fapp%20dev.png?alt=media&token=ad461d1f-a2b7-4841-8edc-906e5be402c8",
     invertColor: true,
     icon: "/mobile-development.png",
     title: "ANDROID & IOS",
@@ -34,7 +34,7 @@ export const exploreWorlds = [
   {
     id: "world-4",
     imgUrl:
-      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fweb%20dev.png?alt=media&token=1b1c9225-2b0a-47d2-86f2-a4aa5f8e46b7",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fweb%20dev.png?alt=media&token=e789e616-50e0-4040-bb8a-93de6db9b48b",
     invertColor: true,
     icon: "/web-programming.png",
     title: "WEB & DESKTOP APPS",
@@ -155,7 +155,7 @@ export const testimonials = [
     position: "CEO of Sweken",
     when: "8 months ago",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2F289647986_7627729177302421_965938227967618398_n.jpeg?alt=media&token=8a87c5db-7d2b-490f-874c-2c9a2c70299e",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2F289647986_7627729177302421_965938227967618398_n.jpeg?alt=media&token=6572dc5b-d900-4060-88f7-e3feff77d479",
     text: "Spotmies team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
   },
   {
@@ -178,22 +178,26 @@ export const testimonials = [
 export const clients = [
   {
     name: "Sweken",
-    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Flogo-final.png?alt=media&token=096b08ad-a9ec-461d-b336-69bfa0475e3e",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Flogo-final.png?alt=media&token=096b08ad-a9ec-461d-b336-69bfa0475e3e",
     link: "https://sweken.com",
   },
   {
     name: "Indie skull syndicate",
-    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fiss_logo.png?alt=media&token=716d5a65-7225-4f30-a11c-2e955f021702",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fiss_logo.png?alt=media&token=716d5a65-7225-4f30-a11c-2e955f021702",
     link: "https://indieskullsyndicate.xyz",
   },
   {
     name: "A Square Entertainment",
-    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fgokart_logo_large.png?alt=media&token=f52684c2-bcf0-4b25-ad6c-3e5fee041e97",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fgokart_logo_large.png?alt=media&token=f52684c2-bcf0-4b25-ad6c-3e5fee041e97",
     link: "https://asquaregokarting.com",
   },
   {
     name: "CypherB",
-    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fblue_banner%20(1).png?alt=media&token=6e70a6be-3178-4462-8423-c2ce4a44e513",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fblue_banner%20(1).png?alt=media&token=6e70a6be-3178-4462-8423-c2ce4a44e513",
     link: "https://cypherb.com",
   },
 ];

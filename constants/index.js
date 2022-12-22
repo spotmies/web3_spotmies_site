@@ -24,7 +24,7 @@ export const exploreWorlds = [
   {
     id: "world-3",
     imgUrl:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fapp%20dev.png?alt=media&token=ad461d1f-a2b7-4841-8edc-906e5be402c8",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fapp%20dev.png?alt=media&token=2a9f7fa3-1c57-43f9-8957-87a5890f9df8",
     invertColor: true,
     icon: "/mobile-development.png",
     title: "ANDROID & IOS",

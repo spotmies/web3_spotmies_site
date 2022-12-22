@@ -360,3 +360,16 @@
   height: 100vh;
   width: 100%;
 }
+
+.slide-1-bg-image{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fhome%20page%20image-min.png?alt=media&token=a0196c0d-b6dc-46b4-8649-49edb39e0b92");
+  // background-attachment: fixed;
+  // background-position: center;
+  background-position-x: center;
+  background-position-y: 190px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 100%;
+  opacity: 0.9;
+}

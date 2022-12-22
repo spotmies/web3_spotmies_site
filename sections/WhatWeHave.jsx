@@ -26,7 +26,7 @@ export default function WhatWeHave() {
           className="w-[100%] md:w-[85%] h-[200px] md:h-[230px] gradient-05 m-auto rounded-[20px] shadow-lg flex flex-row items-center justify-between pr-5 pl-5  md:pr-10 md:pl-10"
         >
           <img
-            src="/rocket_with_graph.png"
+            src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fwhat%20we%20have.png?alt=media&token=b6756299-62c1-4cc4-8db6-ae1081fe3088"
             alt="stamp"
             className="w-[100%] md:w-[30%] h-full object-cover md:block hidden"
           />

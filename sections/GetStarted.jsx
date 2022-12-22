@@ -21,7 +21,7 @@ const GetStarted = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/how_we_accept.png"
+          src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fhow%20can%20we%20get%20into%20project.png?alt=media&token=83038906-bf68-49ba-b73a-ced26915ae22"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />

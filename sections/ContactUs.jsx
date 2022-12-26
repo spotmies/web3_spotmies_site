@@ -48,7 +48,7 @@ export default function ContactUs() {
     setIsFormSubmitted(false);
     axios
       .post(
-        "https://acchedya-server-production.up.railway.app/api/suggestion/new-suggestion",
+        "https://acchedya-server-production-7d93.up.railway.app/api/suggestion/new-suggestion",
         body
       )
       .then((res) => {

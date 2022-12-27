@@ -12,12 +12,12 @@ const Navbar = () => (
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
-    <div className="absolute w-[50%] inset-0 gradient-01" />
+    {/* <div className="absolute w-[100%] inset-0 gradient-01" /> */}
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
       <img
-        src="/spotmies_logo.png"
+        src="/spotmies_icon.png"
         alt="search"
         className="md:w-[45px] md:h-[45px] w-[35px] h-[35px] object-contain cursor-pointer"
       />

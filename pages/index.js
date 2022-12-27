@@ -43,7 +43,7 @@ const mainUi = () => (
       <div className="relative">
         <World />
 
-        <div className="gradient-04 z-0" />
+        {/* <div className="gradient-04 z-0" /> */}
         <Technologies />
       </div>
       <div className="relative">

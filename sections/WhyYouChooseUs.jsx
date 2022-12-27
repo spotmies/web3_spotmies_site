@@ -22,7 +22,7 @@ const WhyYouChooseUs = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/choose_us.png"
+          src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fwhy%20us.png?alt=media&token=1d8eb1df-f21f-47ee-9491-c6f58c8d7088"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />

@@ -23,12 +23,12 @@ export default function WhatWeHave() {
         <div className="h-[100px]" />
         <motion.div
           variants={fadeIn("up", "tween", 0.2, 1)}
-          className="w-[100%] md:w-[85%] h-[200px] md:h-[230px] gradient-05 m-auto rounded-[20px] shadow-lg flex flex-row items-center justify-between pr-5 pl-5  md:pr-10 md:pl-10"
+          className="w-[100%] md:w-[85%] h-[200px] md:h-[230px] m-auto rounded-[20px] gradient-05 shadow-md flex flex-row items-center justify-around pr-5 pl-5  md:pr-10 md:pl-10"
         >
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fwhat%20we%20have.png?alt=media&token=b6756299-62c1-4cc4-8db6-ae1081fe3088"
+            src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fwhat%20we%20have.png?alt=media&token=18ae9033-0704-4cb9-8446-555c90498683"
             alt="stamp"
-            className="w-[100%] md:w-[30%] h-full object-cover md:block hidden"
+            className="w-[100%] md:w-[30%] h-[80%] object-contain md:block hidden"
           />
           <div className="w-full md:w-[50%] flex flex-row items-center justify-between">
             {progressCard("Projects", 15)}
@@ -43,7 +43,7 @@ export default function WhatWeHave() {
   function progressCard(title, count) {
     return (
       <div className="flex flex-col items-left justify-center">
-        <p className="font-extrabold text-3xl md:text-5xl text-slate-300 flex flex-row items-center justify-center">
+        <p className="font-bold text-3xl md:text-5xl text-slate-300 flex flex-row items-center justify-center">
           
           <CountUp enableScrollSpy = {true} end={count}/>
           <span className="md:mb-[15px] mb-[8px]">+</span>

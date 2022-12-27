@@ -117,7 +117,7 @@ export default function Testimonials2() {
             <img
               src={image}
               alt=""
-              className="w-[35px] h-[35px] md:w-[50px] md:h-[50px] rounded-full"
+              className="w-[35px] h-[35px] md:w-[50px] md:h-[50px] object-cover rounded-full"
             />
             <div className="flex flex-col ml-1 md:ml-4">
               <p className="text-white font-bold text-md md:text-xl">{name}</p>

@@ -8,7 +8,7 @@ import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 
 const Hero = () => (
   <section
-    className={`${styles.yPaddings} sm:pl-16 pl-6 relative h-[90vh] `}
+    className={`${styles.yPaddings} sm:pl-16 pl-6 relative md:h-[130vh] h-[90vh] slide-1-bg-image`}
   >
     {/* slide-1-bg-image add this class name for rocket 3d image */}
     <motion.div
@@ -23,11 +23,11 @@ const Hero = () => (
           variants={textVariant(1.1)}
           className={`${styles.heroHeading} text-center`}
         >
-          We Help Startups Launch 🚀 Their Products In The New Era Of The
+          We Help <span className="text-[#0089ff]">Startups</span> Launch 🚀 Their Products In The New Era Of The
           Internet
         </motion.h1>
       </div>
-      <div className=" absolute bottom-0 right-0 md:w-[90%] w-[95%]">
+      {/* <div className=" absolute bottom-0 right-0 md:w-[90%] w-[95%]">
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
           className="relative w-full md:mt-[10px] mt-[5px] h-full"
@@ -41,7 +41,7 @@ const Hero = () => (
             />
           </Suspense>
         </motion.div>
-      </div>
+      </div> */}
     </motion.div>
   </section>
 );

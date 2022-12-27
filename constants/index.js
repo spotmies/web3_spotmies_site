@@ -152,7 +152,7 @@ export const socials = [
 export const testimonials = [
   {
     name: "Vamsi Gummadi",
-    position: "CEO of Sweken",
+    position: "CEO at Sweken",
     when: "8 months ago",
     image:
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2F289647986_7627729177302421_965938227967618398_n.jpeg?alt=media&token=6572dc5b-d900-4060-88f7-e3feff77d479",
@@ -162,7 +162,7 @@ export const testimonials = [
     name: "Ravi Unukuru",
     position: "Web3 Entrepreneur",
     when: "1 months ago",
-    image: "/people-01.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FWhatsApp%20Image%202022-12-23%20at%206.40.13%20PM.jpeg?alt=media&token=af2e1828-0d53-4f9a-8ffa-37ae7e6e7afa",
     text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the blockchain devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
   },
 
@@ -170,7 +170,7 @@ export const testimonials = [
     name: "Anand Boddeti",
     position: "A Square Entertainment",
     when: "2 months ago",
-    image: "/people-01.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
     text: "Working with team spotmies was an amazing experience. The team was knowledgeable and extremely helpful throughout the process.",
   },
 ];

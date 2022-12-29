@@ -339,26 +339,23 @@
   }
 }
 
-.gradient-text{
- 
+.gradient-text {
   // create a gradient text color
   color: linear-gradient(90deg, #f6d365 0%, #fda085 100%);
-
 }
 
 .parallax-div {
-  background-image: url("../../public/our_best_ui.png");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fbackground_ui.png?alt=media&token=428646eb-ca87-4ab2-b944-f7cdedfcf813");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
   @media screen and (max-width: 450px) {
-    background-attachment:inherit;
+    background-attachment: inherit;
   }
-
 }
-.bg-image-parallax{
+.bg-image-parallax {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/spotmies-dev.appspot.com/o/website-assets%2Fsekhar.jpg?alt=media&token=4732c944-5547-4bab-a863-648c06cb174f");
   background-attachment: fixed;
   background-position: center;
@@ -368,7 +365,7 @@
   width: 100%;
 }
 
-.slide-1-bg-image{
+.slide-1-bg-image {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fhome%20page%20image-min.png?alt=media&token=a0196c0d-b6dc-46b4-8649-49edb39e0b92");
   // background-attachment: fixed;
   // background-position: center;
@@ -384,6 +381,4 @@
   }
 
   width: 100%;
-  
-
 }

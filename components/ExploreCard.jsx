@@ -14,13 +14,14 @@ const ExploreCard = ({
   handleClick,
   description,
   icon,
+  iconn,
   invertColor,
 }) => (
   <motion.div
     variants={fadeIn("right", "spring", index * 0.2, 0.75)}
     className={`relative ${
       active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
-    } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
+    } flex items-center justify-center min-w-[170px] h-[75vh] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
     whileHover={() => handleClick(id)}
   >
@@ -28,7 +29,6 @@ const ExploreCard = ({
       src={imgUrl}
       alt="planet-04"
       className="absolute bg-[#293747] w-full h-full object-cover rounded-[24px]"
-      
     />
     {active !== id ? (
       <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
@@ -39,12 +39,13 @@ const ExploreCard = ({
         <div
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[14px] glassmorphism mb-[16px]`}
         >
-          <img
+          {icon({ size: 30, color: "white" })}
+          {/* <img
             src={icon ?? "/headset.svg"}
             alt="headset"
             className="w-1/2 h-1/2 object-contain"
             style={invertColor ? { filter: "invert(1)" } : {}}
-          />
+          /> */}
         </div>
         <p className="font-normal text-[14px] leading-[20.16px] text-white">
           {description ?? ""}

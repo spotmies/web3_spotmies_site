@@ -20,10 +20,10 @@ const Hero = () => (
     >
       <div className="h-full flex justify-center items-center flex-col relative z-10 ">
         <motion.h1
-          variants={textVariant(1.1)}
+          variants={textVariant(0.6)}
           className={`${styles.heroHeading} text-center`}
         >
-          We Help <span className="text-[#0089ff]">Startups</span> Launch 🚀 Their Products In The New Era Of The
+          We Help <span className="text-[#14a2b5]">Startups</span> Launch 🚀 Their Products In The New Era Of The
           Internet
         </motion.h1>
       </div>

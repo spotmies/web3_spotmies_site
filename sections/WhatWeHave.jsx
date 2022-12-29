@@ -31,9 +31,10 @@ export default function WhatWeHave() {
             className="w-[100%] md:w-[30%] h-[80%] object-contain md:block hidden"
           />
           <div className="w-full md:w-[50%] flex flex-row items-center justify-between">
-            {progressCard("Projects", 15)}
-            {progressCard("Dapps", 5)}
-            {progressCard("Clients", 10)}
+            {progressCard("Projects", 30)}
+            {progressCard("Dapps", 6)}
+            {progressCard("Clients", 20)}
+           
           </div>
         </motion.div>
       </motion.div>

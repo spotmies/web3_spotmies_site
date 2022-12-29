@@ -17,13 +17,13 @@ const Navbar = () => (
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
       <img
-        src="/spotmies_icon.png"
+        src="/spotmies_banner.png"
         alt="search"
-        className="md:w-[45px] md:h-[45px] w-[35px] h-[35px] object-contain cursor-pointer"
+        className=" md:h-[40px] h-[30px] object-contain cursor-pointer"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white cursor-pointer">
+      {/* <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white cursor-pointer">
         SPOTMIES
-      </h2>
+      </h2> */}
       <img
         src="/menu.svg"
         alt="menu"

@@ -171,7 +171,7 @@ export const testimonials = [
     position: "A Square Entertainment",
     when: "2 months ago",
     image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
-    text: "Working with team spotmies was an amazing experience. The team was knowledgeable and extremely helpful throughout the process.",
+    text: "We chose spotmies because of responsive and trust work on delivery on time. They implemented cleared designs and latest strategies for outlining and reporting for every stage of the development process.",
   },
 ];
 

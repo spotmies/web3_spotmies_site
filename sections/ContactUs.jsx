@@ -44,11 +44,13 @@ export default function ContactUs() {
   };
 
   const axiosPostApiCall = (body) => {
+    // const api = "https://acchedya-server-production-7d93.up.railway.app";
+    const api = "https://acchedya-server-production.up.railway.app";
     setLoading(true);
     setIsFormSubmitted(false);
     axios
       .post(
-        "https://acchedya-server-production-7d93.up.railway.app/api/suggestion/new-suggestion",
+        `${process.env.SERVER_URL ?? api}/api/suggestion/new-suggestion`,
         body
       )
       .then((res) => {
@@ -75,7 +77,7 @@ export default function ContactUs() {
         <MdEmail size="2rem" className="text-slate-500" />
         <p className="text-md text-white ml-[15px]">info@spotmies.com</p>
       </div>
-     
+
       <div className="flex flex-row items-center mt-[20px]">
         <MdPhone size="2rem" className="text-slate-500" />
         <p className="text-md text-white ml-[15px]">+91 8341980196</p>

@@ -108,7 +108,7 @@ export default function Team() {
     </motion.div>
   );
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`${styles.paddings} relative z-10`} id="team">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

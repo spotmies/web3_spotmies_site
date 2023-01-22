@@ -9,7 +9,7 @@ import workJson from "../json_files/work.json";
 const cypherb = workJson[1];
 const indieskulls = workJson[2];
 const Feedback = () => (
-  <section className={`${styles.paddings}`}>
+  <section className={`${styles.paddings}`} id="recentprojects">
     <motion.div
       variants={staggerContainer}
       initial="hidden"

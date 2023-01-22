@@ -10,7 +10,7 @@ import CountUp from "react-countup";
 
 export default function WhatWeHave() {
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`${styles.paddings} relative z-10`} id="progress">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

@@ -9,7 +9,7 @@ import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
 import { MdPhone } from "react-icons/md";
 
 const WhyYouChooseUs = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id="why-choose-us">
     <motion.div
       variants={staggerContainer}
       initial="hidden"

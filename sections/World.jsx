@@ -7,7 +7,7 @@ import { TitleText, TypingText } from "../components";
 import { fadeIn, staggerContainer } from "../utils/motion";
 
 const World = () => (
-  <section className={`w-[100vw] z-10 m-auto`}>
+  <section className={`w-[100vw] z-10 m-auto`} id="productdesign">
     <motion.div
       variants={staggerContainer}
       initial="hidden"

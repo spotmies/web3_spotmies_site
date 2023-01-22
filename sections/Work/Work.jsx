@@ -45,7 +45,7 @@ const Work = () => {
   };
 
   return (
-    <section className={`z-10`}>
+    <section className={`z-10`} id={"projects"}>
       <motion.div
         variants={staggerContainer}
         initial="hidden"

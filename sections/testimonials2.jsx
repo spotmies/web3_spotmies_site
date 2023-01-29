@@ -55,7 +55,7 @@ export default function Testimonials2() {
   };
 
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`${styles.paddings} relative z-10`} id="testimonials">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

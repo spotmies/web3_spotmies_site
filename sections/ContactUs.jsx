@@ -115,7 +115,7 @@ export default function ContactUs() {
     </motion.div>
   );
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`${styles.paddings} relative z-10`} id="contact-us">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

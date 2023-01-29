@@ -20,6 +20,7 @@ import {
   FiTruck,
   FiUser,
 } from "react-icons/fi";
+import { MdClose } from "react-icons/md";
 
 const Path = (props) => (
   <motion.path
@@ -93,19 +94,19 @@ const itemIds = [
   "Contact Us",
 ];
 const itemIconIds = {
-  Home: <FiHome />,
-  "About Us": <FiInfo />,
-  Services: <FiTruck />,
-  "How We Work": <FiBriefcase />,
-  "Recent Projects": <FiClock />,
-  Projects: <FiCodesandbox />,
-  "Product Design": <FiPieChart />,
-  Skills: <FiCode />,
-  Testimonials: <FiAward />,
-  Progress: <FiLoader />,
-  "Why Choose Us": <FiHelpCircle />,
-  Team: <FiUser />,
-  "Contact Us": <FiSend />,
+  Home: <FiHome color="white" />,
+  "About Us": <FiInfo color="white" />,
+  Services: <FiTruck color="white" />,
+  "How We Work": <FiBriefcase color="white" />,
+  "Recent Projects": <FiClock color="white" />,
+  Projects: <FiCodesandbox color="white" />,
+  "Product Design": <FiPieChart color="white" />,
+  Skills: <FiCode color="white" />,
+  Testimonials: <FiAward color="white" />,
+  Progress: <FiLoader color="white" />,
+  "Why Choose Us": <FiHelpCircle color="white" />,
+  Team: <FiUser color="white" />,
+  "Contact Us": <FiSend color="white" />,
 };
 const links = {
   Home: "#hero",
@@ -153,7 +154,16 @@ const NavBar = () => {
         />
       </div>
       <motion.div className="background" variants={sidebar} />
-      <svg
+      <MdClose
+        color="white"
+        className={
+          isOpen
+            ? "w-[24px] h-[24px] object-contain cursor-pointer absolute right-8 top-8 color-white"
+            : "w-[24px] h-[24px] object-contain cursor-pointer hidden"
+        }
+        onClick={() => setIsOpen((isOpen) => !isOpen)}
+      />
+      {/* <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
@@ -166,14 +176,14 @@ const NavBar = () => {
         //  className="feather feather-x"
         className={
           isOpen
-            ? "w-[24px] h-[24px] object-contain cursor-pointer absolute right-8 top-8"
+            ? "w-[24px] h-[24px] object-contain cursor-pointer absolute right-8 top-8 color-white"
             : "w-[24px] h-[24px] object-contain cursor-pointer hidden"
         }
         onClick={() => setIsOpen((isOpen) => !isOpen)}
       >
         <line x1="18" y1="6" x2="6" y2="18"></line>
         <line x1="6" y1="6" x2="18" y2="18"></line>
-      </svg>
+      </svg> */}
 
       <motion.ul
         variants={variants}
@@ -195,7 +205,9 @@ const NavBar = () => {
               {/*</svg>*/}
 
               {itemIconIds[itemData]}
-              <Link href={links[itemData]}>{itemData}</Link>
+              <Link href={links[itemData]} className="text-white">
+                {itemData}
+              </Link>
             </div>
           </motion.li>
         ))}

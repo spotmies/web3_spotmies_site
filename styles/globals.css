@@ -8,12 +8,10 @@
   box-sizing: border-box;
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
-
 }
-body{
+body {
   background-color: rgb(26 35 46);
-/* prevent extra scrolling */
-
+  /* prevent extra scrolling */
 }
 nav {
   position: absolute;
@@ -29,7 +27,8 @@ nav {
   right: 0;
   bottom: 0;
   width: 300px;
-  background: #fff;
+  background: rgb(27 36 51);
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
 }
 
 /*button {*/
@@ -170,11 +169,10 @@ li {
 ::-webkit-scrollbar {
   width: 10px;
   height: 15px;
-  
 }
 ::-webkit-scrollbar-track-piece {
   background-color: #292a3a;
-  
+
   /* background-color: transparent; */
 }
 ::-webkit-scrollbar-thumb:vertical {

@@ -146,9 +146,7 @@ const NavBar = () => {
           alt="search"
           className=" md:h-[40px] h-[30px] object-contain cursor-pointer"
         />
-        {/* <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white cursor-pointer">
-        SPOTMIES
-      </h2> */}
+
         <img
           src="/menu.svg"
           alt="menu"
@@ -176,6 +174,7 @@ const NavBar = () => {
         onClick={() => setIsOpen((isOpen) => !isOpen)}
       >
         {navibar &&
+          isOpen &&
           itemIds.map((itemData) => (
             <motion.li
               variants={livariants}

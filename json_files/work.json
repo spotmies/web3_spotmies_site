@@ -129,9 +129,10 @@
     },
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fcgram%20hower.png?alt=media&token=ad0cd089-db27-4c1b-b16c-1224e93f1c79",
     "image2": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fcgram%20hower.png?alt=media&token=ad0cd089-db27-4c1b-b16c-1224e93f1c79",
-    "projectLink": "https://google.com",
+    "projectLink": "https://play.google.com/store/apps/details?id=com.cgrum",
     "tags": ["Web 2"],
-    "title": "CGRUM"
+    "title": "CGRUM",
+    "completed": true
   },
   {
     "_createdAt": "2022-02-01T04:51:08Z",

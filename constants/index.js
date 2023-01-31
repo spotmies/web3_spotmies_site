@@ -162,7 +162,8 @@ export const testimonials = [
     name: "Ravi Unukuru",
     position: "Web3 Entrepreneur",
     when: "1 months ago",
-    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FWhatsApp%20Image%202022-12-23%20at%206.40.13%20PM.jpeg?alt=media&token=af2e1828-0d53-4f9a-8ffa-37ae7e6e7afa",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FWhatsApp%20Image%202022-12-23%20at%206.40.13%20PM.jpeg?alt=media&token=af2e1828-0d53-4f9a-8ffa-37ae7e6e7afa",
     text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the blockchain devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
   },
 
@@ -170,7 +171,8 @@ export const testimonials = [
     name: "Anand Boddeti",
     position: "A Square Entertainment",
     when: "2 months ago",
-    image: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
     text: "We chose spotmies because of responsive and trust work on delivery on time. They implemented cleared designs and latest strategies for outlining and reporting for every stage of the development process.",
   },
 ];
@@ -199,5 +201,11 @@ export const clients = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fblue_banner%20(1).png?alt=media&token=6e70a6be-3178-4462-8423-c2ce4a44e513",
     link: "https://cypherb.com",
+  },
+  {
+    name: "Advait Labs",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FAsset-3.png?alt=media&token=f9fc70f8-46bb-4dfa-b8c8-34c28a10e6a5",
+    link: "https://advaitlabs.com",
   },
 ];

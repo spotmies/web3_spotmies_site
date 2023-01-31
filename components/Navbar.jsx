@@ -136,7 +136,7 @@ const NavBar = () => {
   return (
     <motion.nav
       animate={isOpen ? "open" : "closed"}
-      className={`${styles.xPaddings} py-8 z-50 w-[99vw]`}
+      className={`${styles.xPaddings} py-8 z-50 w-[99vw] navigation-bar`}
     >
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}

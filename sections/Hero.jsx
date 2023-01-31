@@ -23,7 +23,7 @@ const Hero = () => (
           variants={textVariant(0.6)}
           className={`${styles.heroHeading} text-center`}
         >
-          We Help <span className="text-[#14a2b5]">Startups</span> Launch 🚀 Their Products In The New Era Of The
+          We Help <span className="text-[#14a2b5]">Startups</span> to Launch 🚀 Their Products In The New Era Of The
           Internet
         </motion.h1>
       </div>

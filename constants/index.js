@@ -179,6 +179,18 @@ export const testimonials = [
 
 export const clients = [
   {
+    name: "Schemax",
+    image:
+      "https://nftstorage.link/ipfs/bafkreigfqbznd3fzg6q3hhk2aubbnd6l5fww35lapgtn53h6654r4bspjy",
+    link: "https://www.schemaxtech.com",
+  },
+  {
+    name: "Decentrialz",
+    image:
+      "https://nftstorage.link/ipfs/bafkreigw3wq7a3euqslspjyxlgm73455u4s4ggvj5yyb7et3fjnl43oaba",
+    link: "https://decentrialz.com",
+  },
+  {
     name: "Sweken",
     image:
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Flogo-final.png?alt=media&token=096b08ad-a9ec-461d-b336-69bfa0475e3e",

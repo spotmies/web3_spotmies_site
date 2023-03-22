@@ -139,7 +139,7 @@ export default function ContactUs() {
           {getInTouch}
           <motion.div
             variants={fadeIn("left", "tween", 0.2, 1)}
-            className="w-[100%] md:w-[700px] h-fit md:h-[550px] mt-[10px] rounded-[10px] md:rounded-[20px] gradient-05 border-[1px] border-[#6A6A6A] border "
+            className="w-[100%] md:w-[700px] h-fit md:h-[550px] mt-[10px] rounded-[10px] md:rounded-[20px] gradient-05 border-[1px] border-[#6A6A6A]  "
           >
             {/* <div className="w-[100%] md:w-[700px] h-fit md:h-[550px] mt-[10px] rounded-[10px] md:rounded-[20px] gradient-05 border-[1px] border-[#6A6A6A] border "> */}
             <form onSubmit={handleSubmit}>

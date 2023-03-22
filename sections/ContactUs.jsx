@@ -85,7 +85,7 @@ export default function ContactUs() {
       <div className="flex flex-row items-start mt-[20px]">
         <MdLocationCity size="2.4rem" className="text-slate-500" />
         <p className="text-md text-white ml-[15px]">
-          AU incubation center, <br /> AU college of engineering,
+          AU incubation centre, <br /> AU college of engineering,
           <br /> Visakhapatnam
         </p>
       </div>

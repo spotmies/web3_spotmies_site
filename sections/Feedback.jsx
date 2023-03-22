@@ -6,8 +6,8 @@ import styles from "../styles";
 import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
 import { TitleText, TypingText } from "../components";
 import workJson from "../json_files/work.json";
-const cypherb = workJson[1];
-const indieskulls = workJson[2];
+const cypherb = workJson[3];
+const indieskulls = workJson[4];
 const Feedback = () => (
   <section className={`${styles.paddings}`} id="recentprojects">
     <motion.div
@@ -22,9 +22,21 @@ const Feedback = () => (
         title={<>Have a look at some of the recent Web 3.0 projects</>}
         textStyles={`text-center ${styles.sideHeadingLeading} pb-6`}
       />
-      {card(cypherb.title, cypherb.glimpse, cypherb.description, cypherb.image, cypherb.more_description)}
+      {card(
+        cypherb.title,
+        cypherb.glimpse,
+        cypherb.description,
+        cypherb.image,
+        cypherb.more_description
+      )}
       <div className="h-[50px]" />
-      {card(indieskulls.title, indieskulls.glimpse, indieskulls.description, indieskulls.image, indieskulls.more_description)}
+      {card(
+        indieskulls.title,
+        indieskulls.glimpse,
+        indieskulls.description,
+        indieskulls.image,
+        indieskulls.more_description
+      )}
       <div className="h-[50px]" />
       {/* {card()} */}
       {/* 2nd slide */}
@@ -33,7 +45,7 @@ const Feedback = () => (
 );
 
 export default Feedback;
-function card(title, smallDescription, description, link,more_description) {
+function card(title, smallDescription, description, link, more_description) {
   return (
     <motion.div
       variants={staggerContainer}
@@ -58,10 +70,9 @@ function card(title, smallDescription, description, link,more_description) {
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[20px] text-[18px] sm:leading-[30.6px] leading-[30.6px] text-white">
-          {description} 
-          <span className="hidden md:block">
-           {more_description}
-          </span>
+          {/* {description}  */}
+          <span className="block md:hidden">{description}</span>
+          <span className="hidden md:block">{more_description}</span>
         </p>
       </motion.div>
 

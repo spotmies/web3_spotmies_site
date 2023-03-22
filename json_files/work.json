@@ -6,6 +6,50 @@
     "_type": "works",
     "_updatedAt": "2022-02-03T10:42:52Z",
     "codeLink": "https://google.com",
+    "description": "Schemax is a software product and technology services company based out of India (Hyderabad & Visakhapatnam),",
+    "imgUrl": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-db53adca404b7410a2869db815e4ce77da2e7e53-1200x900-png",
+        "_type": "reference"
+      }
+    },
+    "image": "https://nftstorage.link/ipfs/bafybeigyozvtmkakqr7fvjdxbxpp5zgjqzrqtmrplnvdoxo2camu3dr3ay",
+    "image2": "https://nftstorage.link/ipfs/bafybeigyozvtmkakqr7fvjdxbxpp5zgjqzrqtmrplnvdoxo2camu3dr3ay",
+    "projectLink": "https://www.schemaxtech.com",
+    "tags": ["Web 2"],
+    "title": "Schemax Tech",
+    "completed": true
+  },
+  {
+    "_createdAt": "2022-02-01T04:51:08Z",
+    "_id": "3208a4d6-0be2-44d5-a858-1cfc0f20f02b",
+    "_rev": "PtDtQjdJbHP45gYivVITmX",
+    "_type": "works",
+    "_updatedAt": "2022-02-03T10:42:52Z",
+    "codeLink": "https://google.com",
+    "description": "Recruit high intent patients or participants through digital channels and nurture them through our software automation platform while keeping the empathetic human touch intact.",
+    "imgUrl": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-db53adca404b7410a2869db815e4ce77da2e7e53-1200x900-png",
+        "_type": "reference"
+      }
+    },
+    "image": "https://nftstorage.link/ipfs/bafybeih4ik73aofyeovtxh7iafrafce76zblbzkccotoav5w463jfwifsi",
+    "image2": "https://nftstorage.link/ipfs/bafybeih4ik73aofyeovtxh7iafrafce76zblbzkccotoav5w463jfwifsi",
+    "projectLink": "https://decentrialz.com",
+    "tags": ["Web 2"],
+    "title": "Decentrialz",
+    "completed": true
+  },
+  {
+    "_createdAt": "2022-02-01T04:51:08Z",
+    "_id": "3208a4d6-0be2-44d5-a858-1cfc0f20f02b",
+    "_rev": "PtDtQjdJbHP45gYivVITmX",
+    "_type": "works",
+    "_updatedAt": "2022-02-03T10:42:52Z",
+    "codeLink": "https://google.com",
     "description": "A Square (Go Karting) is an adventurous theme park for youngsters & children with a play arena.",
     "imgUrl": {
       "_type": "image",
@@ -28,7 +72,7 @@
     "_type": "works",
     "_updatedAt": "2022-02-03T10:42:52Z",
     "codeLink": "https://google.com",
-    "description": "A verification system on the blockchain that allows users to verify their identity and share it with Employers & organization.",
+    "description": "A Recruitment & verification platform on the blockchain that allows users to get a job & verify their identity and share it with organizations.",
     "imgUrl": {
       "_type": "image",
       "asset": {
@@ -41,9 +85,9 @@
     "projectLink": "https://www.cypherb.com",
     "tags": ["Web 3"],
     "title": "Cypher-B",
-    "glimpse": "Verification system",
+    "glimpse": "Recruitment Platform on the blockchain",
     "completed": true,
-    "more_description": "Employers can verify a job candidate's identity and qualifications in a secure, tamper-proof way. This can help employers make more informed hiring decisions and avoid hiring fraudulent or unqualified candidates."
+    "more_description": "A Recruitment & verification platform on the blockchain that allows users to get a job & verify their identity and share it with Employers & organizations. Employers can get a pre-verified candidate for their organizations in a secure, tamper-proof way. This can help employers make more informed hiring decisions and avoid hiring fraudulent or unqualified candidates."
   },
   {
     "_createdAt": "2022-02-01T04:51:08Z",
@@ -67,7 +111,7 @@
     "title": "Indie skull syndicate",
     "glimpse": "NFT based project",
     "completed": true,
-    "more_description": "ISS is a NFT based project developed with blockchain(solidity) for secure and accurates crypto transactions. connected with IPFS (for storage and retrieval of data) and opensea."
+    "more_description": "Journey with Zoople and 2,500 wanderers. Half-human, half-phantom. join the Syndicate. ISS is a NFT based project developed with blockchain(solidity) for secure and accurates crypto transactions. connected with IPFS (for storage and retrieval of data) and opensea."
   },
   {
     "_createdAt": "2022-02-01T04:51:08Z",

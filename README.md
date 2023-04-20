@@ -1,6 +1,6 @@
 # Web3 Spotmies Website
 
-![Screenshot-1](/readme_pic1.png)
+![Screenshot-1](./readme_pic1.png)
 
 ---
 

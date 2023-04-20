@@ -1,6 +1,6 @@
 # Web3 Spotmies Website
 
-![Screenshot-1](/readme_pic1.png)
+![Screenshot-1](./readme_pic1.png)
 
 ---
 
@@ -12,7 +12,7 @@ This project is a website built using the Next.js framework. It features a numbe
 ## Installation
 To install the project, first clone the repository:  
 ```bash
-git clone https://github.com/username/metaverse13.git
+git clone https://github.com/spotmies/web3_spotmies_site.git
 ```
 
 Then, navigate into the project directory and install the dependencies using npm:  

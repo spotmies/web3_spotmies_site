@@ -1,6 +1,6 @@
 # Web3 Spotmies Website
 
-![Screenshot-1](./readme_pic1.png)
+![readme_pic1](https://user-images.githubusercontent.com/90003260/233463184-936b21a6-c648-4d61-b8fd-3b84e3305df9.png)
 
 ---
 

@@ -1,6 +1,10 @@
 # Web3 Spotmies Website
 
 ![readme_pic1](https://user-images.githubusercontent.com/90003260/233463184-936b21a6-c648-4d61-b8fd-3b84e3305df9.png)
+![Screenshot 2023-04-24 185015](https://user-images.githubusercontent.com/90003260/234008847-6b44d400-7dba-47d3-b2a6-e733b5e3b754.png)
+![Screenshot 2023-04-24 184248](https://user-images.githubusercontent.com/90003260/234008947-6ffbf4e4-85c2-4a6e-9933-ef0198a4eee5.png)
+
+
 
 ---
 
